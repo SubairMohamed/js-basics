@@ -16,6 +16,7 @@
 // Javascript Operators
 
 // 01 Arithmetic operator
+//==========================
 // +  Addition
 //  - Substraction
 //  * Multiplication
@@ -34,6 +35,7 @@
 // console.log(inc);
 
 // 02 comparison operator
+//========================
 // == Equalvalue 
 // === Equal type and value
 // != is not equal value
@@ -59,7 +61,23 @@ let bb = 20;
 // console.log(bb < aa);
 // console.log(aa <= bb);
 
+// 03 Logical operator
+//====================
+//  && = And 
+//  || = OR 
+//  ! = NOT
 
+let ss = 20;
+let dd = 30;
+//console.log(ss === 20 && dd === 29);
+//console.log(dd === 30 || ss === 210);
+
+//console.log(dd !== ss);
+ let cagsi = true;
+ //console.log(!cagsi);
+
+ let cagsikale = false;
+ console.log(!cagsikale);
 
 
 
