@@ -14,6 +14,7 @@
 // waa inaanad space u dhaxiisiin
 
 // Javascript Operators
+
 // 01 Arithmetic operator
 // +  Addition
 //  - Substraction
@@ -28,10 +29,35 @@
 // console.log(dec--);
 // console.log(dec);
 
-let inc = 100;
-console.log(inc++);
-console.log(inc);
+// let inc = 100;
+// console.log(inc++);
+// console.log(inc);
 
+// 02 comparison operator
+// == Equalvalue 
+// === Equal type and value
+// != is not equal value
+// !== is not equal type and value 
+// > greater then 
+// >= greather then or equal to
+// < less then 
+// <= less then or equal to
+
+let num1 = 20;
+let num2 = "20";
+// console.log(num1 == 10);
+// console.log(num2 === num1);
+
+//console.log(num1 !== num2); // true 
+//console.log(num1 != num2);  //false 
+
+let aa = 20;
+let bb = 20;
+//console.log(aa > bb);
+//console.log(aa >= bb);
+
+// console.log(bb < aa);
+// console.log(aa <= bb);
 
 
 
