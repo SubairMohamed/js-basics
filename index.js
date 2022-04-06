@@ -73,13 +73,18 @@ let dd = 30;
 //console.log(dd === 30 || ss === 210);
 
 //console.log(dd !== ss);
- let cagsi = true;
- //console.log(!cagsi);
+//  let cagsi = true;
+//  console.log(!cagsi);
 
- let cagsikale = false;
- console.log(!cagsikale);
+//  let cagsikale = false;
+//  console.log(!cagsikale);
 
-
+//Exercise 
+//==========
+//1) all types Of javascript versions?
+// 2) diffrences Of (var), (let), (const)?
+// 3) what is the js comments? and what is used?
+// 4) all types Of javascript operators?
 
 
 
