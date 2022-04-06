@@ -118,7 +118,23 @@ let tureorfalse = true;
 // 'string'
 ///////////////////////
 
+//  02 Non-Primitive Datatype 
 
+// functions
+// Objects
+// Array
+
+//  ES5
+function Name (x, y) {
+   console.log("parameter 1 is ", x, "parameter 2 is ", y);
+}
+
+
+// ES6
+
+const NameArrow = () => {
+    console.log("Ill escuted when you named my arrow function ");
+}
 
 
 
