@@ -72,7 +72,7 @@ let dd = 30;
 //console.log(ss === 20 && dd === 29);
 //console.log(dd === 30 || ss === 210);
 
-//console.log(dd !== ss);
+// console.log(dd !== ss);
 //  let cagsi = true;
 //  console.log(!cagsi);
 
@@ -86,11 +86,37 @@ let dd = 30;
 // 3) what is the js comments? and what is used?
 // 4) all types Of javascript operators?
 
+// Data Type
+
+//    01 Primitive data type 
+
+//  Number = 123456789;
+//  String = "subeer";
+//  Boolean = true , false;
+//  null = "wax madham";
+//  undefined = "wax aan jirin";
 
 
+let numbers = 100;
+let Strings = "alpha";
+let tureorfalse = true;
 
-
-
+////////console///////
+// let number = 100;
+// undefined
+// console.log(typeof number);
+// VM2524:1 number
+// undefined
+// let magacyada = "alpha";
+// undefined
+// console.log(typeof magacyada);
+// VM2931:1 string
+// undefined
+// let magacyada = "alpha";
+// undefined
+// typeof magacyada
+// 'string'
+///////////////////////
 
 
 
