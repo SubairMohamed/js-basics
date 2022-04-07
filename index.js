@@ -125,22 +125,46 @@ let tureorfalse = true;
 // Array
 
 //  ES5
-function Name (x, y) {
-   console.log("parameter 1 is ", x, "parameter 2 is ", y);
+function Name(x, y) {
+    console.log("parameter 1 is ", x, "parameter 2 is ", y);
 }
 
 
 // ES6
 
-const NameArrow = () => {
-    console.log("Ill escuted when you named my arrow function ");
-}
+// value number
+// const Addttion = (num) => {
+//     return num * 5;
+// }
+// let num = Addttion(10);
+// console.log(num);
+
+// value string
+// function sayhello(name) {
+//     console.log("hello " + name + " how are you");
+// }
+
+// function sceneraio(name) {
+//     return "my name is " + name;
+// }
+// const choice = sceneraio("subeer maxamed");
+// let choicetwo = sceneraio("subeer maxamed");
 
 
+// value variable
+// function readvariable(name) {
+//     return "Hello mr/mrs " + name;
+// }
+// const mohamed = "subeer maxamed harbi";
+// let cali = "subeer cali harbi";
 
-
-
-
+//console
+// let ayaan = "AYN"
+// undefined
+// ayaan
+// 'AYN'
+// readvariable(ayaan)
+// 'Hello mr/mrs AYN'
 
 
 
