@@ -175,8 +175,11 @@ let tureorfalse = true;
 
 // Exercise 2
 // celsium to fahrenhiet?
+//== °F = (°C × 9/5) + 32
 // Radius of circle?
+//== radius is r=c/2b..
 // circumference of circle?
+//== C = 2πR = 2 * π * 14
 
 // 02 Objects
 //===========
