@@ -124,14 +124,15 @@ let tureorfalse = true;
 // Objects
 // Array
 
-//  ES5
-function Name(x, y) {
-    console.log("parameter 1 is ", x, "parameter 2 is ", y);
-}
+// 01 function
+//==============
 
+//  ES5
+// function Name(x, y) {
+//     console.log("parameter 1 is ", x, "parameter 2 is ", y);
+// }
 
 // ES6
-
 // value number
 // const Addttion = (num) => {
 //     return num * 5;
@@ -165,6 +166,21 @@ function Name(x, y) {
 // 'AYN'
 // readvariable(ayaan)
 // 'Hello mr/mrs AYN'
+
+// fahrenhiet to celsium
+// formula = °C = (°F - 32) × 5/9, 
+// function tocel(fahrenhiet) {
+//     return (fahrenhiet - 32) * 5/9;
+// }
+
+// Exercise 2
+// celsium to fahrenhiet?
+// Radius of circle?
+// circumference of circle?
+
+// 02 Objects
+//===========
+
 
 
 
