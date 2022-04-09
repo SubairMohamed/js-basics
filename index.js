@@ -184,6 +184,37 @@ let tureorfalse = true;
 // 02 Objects
 //===========
 
+const car = {
+    name: "parado",
+    model: 2019,
+    color: "white",
+    weight: "850kg",
+    start: function () {
+        console.log("gaadhiga waa la istaadhay");
+    },
+    drive: function () {
+        console.log("gaadhiga waa la kixeeyay");
+    },
+    stop: function () {
+        console.log("gaadhiga waa la istaajiyay");
+    },
+}; 
+
+const person = {
+    name: "farah",
+    color: "black",
+    height: "tell",
+    weight: "fat",
+};
+
+// Challenge 
+//   person {
+ //  #1 Method color
+ //  #2 Method Fat
+ //  #3 Method tell
+// }
+
+
 
 
 
