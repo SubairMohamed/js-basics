@@ -198,7 +198,7 @@ const car = {
     stop: function () {
         console.log("gaadhiga waa la istaajiyay");
     },
-}; 
+};
 
 const person = {
     name: "farah",
@@ -207,22 +207,37 @@ const person = {
     weight: "fat",
 };
 
-// Challenge 
+// Challenge
 //   person {
- //  #1 Method color
- //  #2 Method Fat
- //  #3 Method tell
+//  #1 Method color
+//  #2 Method Fat
+//  #3 Method tell
 // }
 
+// 03 Arrays
+//==========
 
+// const vegetables1 = "banana";
+// const vegetables2 = "Apple";
+// const vegetables3 = "lemon";
 
+// const vegetables = ["banana", "Apple", "lemon", 200, "4000", true, null, function () {
+//     return car;
+// },];
+// markaan doonayo function ii haya object
+//kaa soo leh properties io methods wxn ku soo saranayaa vegetables[7]().start()
+//                                              namearrayka indexes function clmd . methodkaaga
+//console.log(vegetables);
 
+// Array methods
 
-
-
-
-
-
+// 01 Pop()
+// 02 Push()
+// 03 Shift()
+// 04 Unshift()
+// 05 Splice()
+// 06 Slice()
+// 07 Concat()
 
 
 
