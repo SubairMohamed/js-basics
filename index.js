@@ -238,13 +238,15 @@ const person = {
 // 06 Slice()
 // 07 Concat()
 
-// push() = addes last element from the array
+
 const fruits = ["orange", "apple", "lemon", "watermilen",];
+// push() = addes last element from the array
 //fruits.push("banana", "saled",);
 
 // 02 Pop() = deletes or removes last element from the array
+//fruits.pop();
 
-fruits.pop();
+
 console.log("The Array is: ", fruits);
 
 
