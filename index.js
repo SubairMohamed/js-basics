@@ -230,19 +230,22 @@ const person = {
 //console.log(vegetables);
 
 // Array methods
-
-// 01 Pop()
-// 02 Push()
+// 01 Push()
+// 02 Pop()
 // 03 Shift()
 // 04 Unshift()
 // 05 Splice()
 // 06 Slice()
 // 07 Concat()
 
+// push() = addes last element from the array
+const fruits = ["orange", "apple", "lemon", "watermilen",];
+//fruits.push("banana", "saled",);
 
+// 02 Pop() = deletes or removes last element from the array
 
-
-
+fruits.pop();
+console.log("The Array is: ", fruits);
 
 
 
