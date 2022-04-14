@@ -254,9 +254,28 @@ const fruits = ["orange", "apple", "lemon", "watermilen","mango", "grapes"];
 //fruits.unshift("bango");
 
 // 05 Splice() = it contains two functions removes and adding from the array.
-fruits.splice(4, 5,);
-console.log("The Array is: ", fruits);
+// fruits.splice(4, 5,);
+// fruits.splice(4, 0, "muus");
 
+// 06 Slice() = it make selecting element from the existing array.
+//const myfavor = fruits.slice(0, 4);
+
+// 07 Concat() = creates a new array by merging existing array.
+
+// const myhopes = fruits.slice(0, 2);
+// const myhates = fruits.slice(4, 6);
+// const iskuDaririd = myhates.concat(myhopes);
+
+// console.log("myhopes fruits: ", myhopes);
+// console.log("myhates fruits: ", myhates);
+// console.log("iskuDaririd: ", iskuDaririd);
+
+// let sum = [1,2,3,4,];
+// let multi = [5,6,7,8];
+// let dhamaan = sum.concat(multi);
+
+// if statements
+//===============
 
 
 
