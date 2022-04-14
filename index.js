@@ -239,18 +239,22 @@ const person = {
 // 07 Concat()
 
 
-const fruits = ["orange", "apple", "lemon", "watermilen",];
-// push() = addes last element from the array
+const fruits = ["orange", "apple", "lemon", "watermilen","mango", "grapes"];
+
+// push() = addes last element from the array.
 //fruits.push("banana", "saled",);
 
-// 02 Pop() = deletes or removes last element from the array
+// 02 Pop() = deletes or removes last element from the array.
 //fruits.pop();
 
-// 03 Shift() = deletes or removes first element from the array
+// 03 Shift() = deletes or removes first element from the array.
 //fruits.shift();
 
-// 04 Unshift() = addes first element from the array 
-fruits.unshift("bango");
+// 04 Unshift() = addes first element from the array.
+//fruits.unshift("bango");
+
+// 05 Splice() = it contains two functions removes and adding from the array.
+fruits.splice(4, 5,);
 console.log("The Array is: ", fruits);
 
 
