@@ -246,7 +246,11 @@ const fruits = ["orange", "apple", "lemon", "watermilen",];
 // 02 Pop() = deletes or removes last element from the array
 //fruits.pop();
 
+// 03 Shift() = deletes or removes first element from the array
+//fruits.shift();
 
+// 04 Unshift() = addes first element from the array 
+fruits.unshift("bango");
 console.log("The Array is: ", fruits);
 
 
