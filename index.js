@@ -276,7 +276,52 @@ const fruits = ["orange", "apple", "lemon", "watermilen","mango", "grapes"];
 
 // if statements
 //===============
+// if (3 < 6) {
+//      console.log("waxaad ii soo saartaa way is leegyihiin");
+// }
 
+// if (5 >= 10) {
+//     console.log("waxaad ii soo saartaa waa run");
+// } else {
+//     console.log("waxaad ii soo saartaa waa been");
+// }
 
+// if (3 === 4) {
+//     console.log("isma leegka");
+// } else if (3 < 2) {
+//     console.log("waa been");
+// } else {
+//     console.log("condition kani waa khalad");
+// }
 
+// const Zaad = 100;
+// const eDahab = 300;
+// const keyboard = 20;
+// const mouse = 20;
 
+// console.log("lacagta Zaad + eDahab waa = ", Zaad + eDahab);
+// console.log("lacagta Zaad + eDahab waa = ", keyboard + mouse);
+
+//   if (Zaad >= keyboard + mouse) {
+//     console.log("waxaad ku iibsan kartaa by Zaad");
+// } else if (eDahab >= keyboard + mouse) {
+//     console.log("waxaad ku iibsan kartaa by eDahab");
+// } else if (Zaad + eDahab >= keyboard + mouse) {
+//     console.log("iibsan kartaa by Zaad + eDahab");
+// } else {
+//     console.log("lacag kugu filan kuguma jirto");
+// }
+
+// challenge
+//==========
+
+// const Zaad = 10;
+// const eDahab = 20;
+// const Evc = 5;
+// const Golis = 6;
+
+// Alaab
+
+// const keyboard = 15;
+// const mouse = 20;
+// const laptopFan = 10;
