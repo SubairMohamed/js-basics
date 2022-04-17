@@ -312,16 +312,38 @@ const fruits = ["orange", "apple", "lemon", "watermilen","mango", "grapes"];
 //     console.log("lacag kugu filan kuguma jirto");
 // }
 
-// challenge
-//==========
+// challenge exercise
+//====================
 
-// const Zaad = 10;
-// const eDahab = 20;
-// const Evc = 5;
-// const Golis = 6;
+const Zaad = 11.5;
+const eDahab = 11.5;
+const Evc = 11.5;
+const Golis = 11.5;
 
+console.log("Money Transffer :",Zaad + eDahab + Evc + Golis);
 // Alaab
 
-// const keyboard = 15;
-// const mouse = 20;
-// const laptopFan = 10;
+const keyboard = 15;
+const mouse = 20;
+const laptopFan = 10;
+
+console.log("Alaab :",keyboard + mouse + laptopFan);
+
+if (Zaad >= keyboard + mouse + laptopFan) {
+    console.log("kuma iibsan kartid by Zaad");
+} else if (eDahab >= keyboard + mouse + laptopFan) {
+    console.log("kuma iibsan kartid by eDahab");
+} else if (Evc >= keyboard + mouse + laptopFan) {
+    console.log("kuma iibsan kartid by Evc");
+} else if (Golis >= keyboard + mouse + laptopFan) {
+    console.log("kuma iibsan kartid by Golis");
+} else if (Zaad + eDahab >= keyboard + mouse + laptopFan) {
+    console.log("kuma iibsan kartid by Zaad + eDahab");
+} else if (Zaad + eDahab + Evc >= keyboard + mouse + laptopFan) {
+    console.log("kuma iibsan kartid by Zaad + eDahab + Evc");
+} else if (Zaad + eDahab + Evc + Golis >= keyboard + mouse + laptopFan) {
+    console.log("waad ku iibsan kartid by Zaad + eDahab + Evc + Golis");
+} else {
+    console.log("dhamaan midna kuma iibsan kartid");
+}
+// waa ku cilis by make to function 
