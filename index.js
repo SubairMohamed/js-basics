@@ -315,35 +315,80 @@ const fruits = ["orange", "apple", "lemon", "watermilen","mango", "grapes"];
 // challenge exercise
 //====================
 
-const Zaad = 11.5;
-const eDahab = 11.5;
-const Evc = 11.5;
-const Golis = 11.5;
+// const Zaad = 11.5;
+// const eDahab = 11.5;
+// const Evc = 11.5;
+// const Golis = 11.5;
 
-console.log("Money Transffer :",Zaad + eDahab + Evc + Golis);
-// Alaab
+//console.log("Money Transffer :",Zaad + eDahab + Evc + Golis);
 
+// items
+// const keyboard = 15;
+// const mouse = 20;
+// const laptopFan = 10;
+
+//console.log("Alaab :",keyboard + mouse + laptopFan);
+
+// if (Zaad >= keyboard + mouse + laptopFan) {
+//     console.log("kuma iibsan kartid by Zaad");
+// } else if (eDahab >= keyboard + mouse + laptopFan) {
+//     console.log("kuma iibsan kartid by eDahab");
+// } else if (Evc >= keyboard + mouse + laptopFan) {
+//     console.log("kuma iibsan kartid by Evc");
+// } else if (Golis >= keyboard + mouse + laptopFan) {
+//     console.log("kuma iibsan kartid by Golis");
+// } else if (Zaad + eDahab >= keyboard + mouse + laptopFan) {
+//     console.log("kuma iibsan kartid by Zaad + eDahab");
+// } else if (Zaad + eDahab + Evc >= keyboard + mouse + laptopFan) {
+//     console.log("kuma iibsan kartid by Zaad + eDahab + Evc");
+// } else if (Zaad + eDahab + Evc + Golis >= keyboard + mouse + laptopFan) {
+//     console.log("waad ku iibsan kartid by Zaad + eDahab + Evc + Golis");
+// } else {
+//     console.log("dhamaan midna kuma iibsan kartid");
+// }
+// waa ku cilis by make to function 
+
+// function counter (items) {
+//    if (Zaad >= items) {
+//       console.log("you can buy by Zaad");
+//    } else if (eDahab >= items) {
+//       console.log("you can buy by eDahab");
+//    } else if (Evc >= items) {
+//        console.log("you can buy by Evc");
+//    } else if (Golis >= items) {
+//        console.log("you can buy by Golis");
+//    } else {
+//        console.log("you don't have any money");
+//    }
+// } 
+// end chalenge one 
+
+// chalenge two
+//=============
+
+// Accounts
+const Zaad = 10;
+const eDahab = 20;
+const Evc = 5;
+const Golis = 6;
+const bank = 100;
+
+const Accounts = [Zaad + eDahab + Evc + Golis + bank];
+console.log("Accounts: ", Accounts);
+
+// item
 const keyboard = 15;
 const mouse = 20;
 const laptopFan = 10;
+const macbookPro = 1500;
 
-console.log("Alaab :",keyboard + mouse + laptopFan);
+const TotalItem = [keyboard + mouse + laptopFan + macbookPro]; 
+console.log("TotalItem: ", TotalItem);
 
-if (Zaad >= keyboard + mouse + laptopFan) {
-    console.log("kuma iibsan kartid by Zaad");
-} else if (eDahab >= keyboard + mouse + laptopFan) {
-    console.log("kuma iibsan kartid by eDahab");
-} else if (Evc >= keyboard + mouse + laptopFan) {
-    console.log("kuma iibsan kartid by Evc");
-} else if (Golis >= keyboard + mouse + laptopFan) {
-    console.log("kuma iibsan kartid by Golis");
-} else if (Zaad + eDahab >= keyboard + mouse + laptopFan) {
-    console.log("kuma iibsan kartid by Zaad + eDahab");
-} else if (Zaad + eDahab + Evc >= keyboard + mouse + laptopFan) {
-    console.log("kuma iibsan kartid by Zaad + eDahab + Evc");
-} else if (Zaad + eDahab + Evc + Golis >= keyboard + mouse + laptopFan) {
-    console.log("waad ku iibsan kartid by Zaad + eDahab + Evc + Golis");
-} else {
-    console.log("dhamaan midna kuma iibsan kartid");
+function broker (TotalItem) {
+     if (Accounts >= TotalItem) {
+         console.log("you can buy your All Account");
+     } else {
+         console.log("hmhmhmh: you can't buy your All Account");
+     }
 }
-// waa ku cilis by make to function 
