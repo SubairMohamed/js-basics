@@ -239,7 +239,7 @@ const person = {
 // 07 Concat()
 
 
-const fruits = ["orange", "apple", "lemon", "watermilen","mango", "grapes"];
+const fruits = ["orange", "apple", "lemon", "watermilen", "mango", "grapes"];
 
 // push() = addes last element from the array.
 //fruits.push("banana", "saled",);
@@ -346,7 +346,7 @@ const fruits = ["orange", "apple", "lemon", "watermilen","mango", "grapes"];
 // } else {
 //     console.log("dhamaan midna kuma iibsan kartid");
 // }
-// waa ku cilis by make to function 
+// waa ku cilis by make to function
 
 // function counter (items) {
 //    if (Zaad >= items) {
@@ -360,35 +360,51 @@ const fruits = ["orange", "apple", "lemon", "watermilen","mango", "grapes"];
 //    } else {
 //        console.log("you don't have any money");
 //    }
-// } 
-// end chalenge one 
+// }
+// end chalenge one
 
 // chalenge two
 //=============
 
 // Accounts
-const Zaad = 10;
-const eDahab = 20;
-const Evc = 5;
-const Golis = 6;
-const bank = 100;
+// const Zaad = 10;
+// const eDahab = 20;
+// const Evc = 5;
+// const Golis = 6;
+// const bank = 100;
 
-const Accounts = [Zaad + eDahab + Evc + Golis + bank];
-console.log("Accounts: ", Accounts);
+// const Accounts = [Zaad + eDahab + Evc + Golis + bank];
+// console.log("Accounts: ", Accounts);
 
 // item
-const keyboard = 15;
-const mouse = 20;
-const laptopFan = 10;
-const macbookPro = 1500;
+// const keyboard = 15;
+// const mouse = 20;
+// const laptopFan = 10;
+// const macbookPro = 1500;
 
-const TotalItem = [keyboard + mouse + laptopFan + macbookPro]; 
-console.log("TotalItem: ", TotalItem);
+// const TotalItem = [keyboard + mouse + laptopFan + macbookPro];
+// console.log("TotalItem: ", TotalItem);
 
-function broker (TotalItem) {
-     if (Accounts >= TotalItem) {
-         console.log("you can buy your All Account");
-     } else {
-         console.log("hmhmhmh: you can't buy your All Account");
-     }
-}
+// function broker (TotalItem) {
+//      if (Accounts >= TotalItem) {
+//          console.log("you can buy your All Account");
+//      } else {
+//          console.log("hmhmhmh: you can't buy your All Account");
+//      }
+// }
+
+// Higher Order Functions
+// =========================
+
+// 01 Map
+// 02 Filter
+// 03 Reduce
+// ------------
+
+// 01 Map
+
+const numberHOF = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+numberHOF.map(function (MERN) {
+    return MERN + 1;
+});
