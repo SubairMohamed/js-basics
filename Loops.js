@@ -42,3 +42,39 @@
 // for (kings in friends) {
 //     console.log(friends[kings]);
 // }
+
+// 04 While
+// ---------
+// let i = 0;
+// while (i < 10) {
+//    console.log(i);
+//    i++
+//    //if (i === 3) break; numberka kaa ka horeeya ayay ku istaagaysaa
+//    //if (i === 9) continue;
+//    //console.log(i);
+// }
+
+// 05 Do..while
+// ------------
+
+// numberka ka ku xiga ayuu ka bilaawayaa
+// let i = 0; 
+// do {
+//     i++;
+//     //if (i === 5) break;
+//     //if (i === 5) continue;
+//     console.log(i);
+// } while (i < 10);
+
+// 06 ForEach... HOF
+// -----------------
+
+//const animals = ["cat", "dog", "lion", "tiger", "elevent", "cheetah"];
+
+// animals.forEach(xawayaano => {
+//     console.log(xawayaano);
+// });
+
+// animals.forEach( function (xawayaano) {
+//      console.log(xawayaano);
+// });
