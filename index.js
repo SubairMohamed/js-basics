@@ -45,16 +45,18 @@
 // < less then 
 // <= less then or equal to
 
-let num1 = 20;
-let num2 = "20";
+// let num1 = 20;
+// let num2 = "20";
+
 // console.log(num1 == 10);
 // console.log(num2 === num1);
 
 //console.log(num1 !== num2); // true 
 //console.log(num1 != num2);  //false 
 
-let aa = 20;
-let bb = 20;
+// let aa = 20;
+// let bb = 20;
+
 //console.log(aa > bb);
 //console.log(aa >= bb);
 
@@ -67,8 +69,9 @@ let bb = 20;
 //  || = OR 
 //  ! = NOT
 
-let ss = 20;
-let dd = 30;
+// let ss = 20;
+// let dd = 30;
+
 //console.log(ss === 20 && dd === 29);
 //console.log(dd === 30 || ss === 210);
 
@@ -97,9 +100,9 @@ let dd = 30;
 //  undefined = "wax aan jirin";
 
 
-let numbers = 100;
-let Strings = "alpha";
-let tureorfalse = true;
+// let numbers = 100;
+// let Strings = "alpha";
+// let tureorfalse = true;
 
 ////////console///////
 // let number = 100;
@@ -184,28 +187,28 @@ let tureorfalse = true;
 // 02 Objects
 //===========
 
-const car = {
-    name: "parado",
-    model: 2019,
-    color: "white",
-    weight: "850kg",
-    start: function () {
-        console.log("gaadhiga waa la istaadhay");
-    },
-    drive: function () {
-        console.log("gaadhiga waa la kixeeyay");
-    },
-    stop: function () {
-        console.log("gaadhiga waa la istaajiyay");
-    },
-};
+// const car = {
+//     name: "parado",
+//     model: 2019,
+//     color: "white",
+//     weight: "850kg",
+//     start: function () {
+//         console.log("gaadhiga waa la istaadhay");
+//     },
+//     drive: function () {
+//         console.log("gaadhiga waa la kixeeyay");
+//     },
+//     stop: function () {
+//         console.log("gaadhiga waa la istaajiyay");
+//     },
+// };
 
-const person = {
-    name: "farah",
-    color: "black",
-    height: "tell",
-    weight: "fat",
-};
+// const person = {
+//     name: "farah",
+//     color: "black",
+//     height: "tell",
+//     weight: "fat",
+// };
 
 // Challenge
 //   person {
@@ -403,8 +406,38 @@ const fruits = ["orange", "apple", "lemon", "watermilen", "mango", "grapes"];
 
 // 01 Map
 
-const numberHOF = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const numberHOF = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-numberHOF.map(function (MERN) {
-    return MERN + 1;
-});
+// numberHOF.map(function (value) {
+//     console.log("Number " + value + " * 10 = ", value * 10);
+//     return value;
+// });
+
+// auto function example 2 map
+
+// const ArrayNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const MultipleByNumber = (Number) => {
+//     return ArrayNumbers.map((data) => data * Number);
+// };
+
+// console.log(ArrayNumbers);
+
+const lacag = [
+    {
+        name: "Zaad",
+        amount: 20000,
+    },
+    {
+        name: "Sahal",
+        amount: 20000,
+    }
+];
+
+lacag.map((money) => { console.log("before:", money); });
+
+const FunctionBySubstraction = (price) => {
+    return lacag.map((Money => {
+        return continuel;
+    }));
+};
