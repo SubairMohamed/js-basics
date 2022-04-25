@@ -1,10 +1,7 @@
 // Sort HOF
 // ========
 
-const even = [10, 40, 100, 30, 50, 200, 400,];
+const even = ["p", "a", "c", "e", "d", "f", "b"];
 
-even.sort((a, b) => {
-   return b.even - a.even;
-});
-
-console.log(even);
+const odd = even.sort();
+console.log(odd);
