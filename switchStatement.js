@@ -1,7 +1,7 @@
 // switch statement 
 // ================
 
-// let days = "axad";
+// let days = "khamiis";
 
 // switch (days) {
 //     case "my days":
@@ -33,3 +33,31 @@
 // }
 
 // console.log(days);
+
+// 02 switch statement
+// ===================
+
+// let grade=prompt("Enter your marks");
+
+// switch (grade) {
+//    case "A":
+//        alert("Excellent");
+//        break;
+//     case "B":
+//         alert("Very Good");
+//         break;
+//     case "C":
+//         alert("Good");
+//         break;
+//     case "D":
+//         alert("Nice");
+//         break;
+//     case "E":
+//         alert("Very Low");
+//         break;
+//     default:
+//         alert("Very Low");
+//        break;
+// }
+
+// console.log(grade);
