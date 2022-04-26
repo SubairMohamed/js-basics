@@ -495,7 +495,7 @@ const classB = [
     },
     {
         name: "nimco faarax",
-        gender: "Famale",
+        gender: "Female",
         grade: 20,
     },
     {
@@ -513,13 +513,23 @@ const classB = [
 // });
 
 // 02
+// const classBNames = classB.map((student) => {
+//     return student.name;
+// });
+// console.log(classBNames);
 
-
-const classBNames = classB.map((student) => {
-    return student.name;
-});
-console.log(classBNames);
-s
 // are same
 //const classBNames = classB.map((student) => student.name); wxa kuu qabanaya arrow fun ka
 // console.log(classBNames);
+
+// 02 Filter
+// =========
+
+// const classGirls = classB.filter((student) => {
+//    return student.gender === "Male";
+// });
+
+const classUnderfiveth = classB.filter(function(student) {
+    return student.grade < 50; 
+});
+console.log(classUnderfiveth);
