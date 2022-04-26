@@ -451,3 +451,75 @@ const fruits = ["orange", "apple", "lemon", "watermilen", "mango", "grapes"];
 // const Bank = lacag.map((value) => value.amount);
 
 // console.log(Bank);
+
+const classB = [
+    {
+        name: "maxamed ali",
+        gender: "Male",
+        grade: 100,
+    },
+    {
+        name: "xamda maxamed",
+        gender: "Female",
+        grade: 90,
+    },
+    {
+        name: "nasra jaamac",
+        gender: "Female",
+        grade: 50,
+    },
+    {
+        name: "muhiim cali",
+        gender: "Female",
+        grade: 50,
+    },
+    {
+        name: "nasr iid",
+        gender: "Male",
+        grade: 70,
+    },
+    {
+        name: "suhayb mukhtaar",
+        gender: "Male",
+        grade: 80,
+    },
+    {
+        name: "subeer maxamed",
+        gender: "Male",
+        grade: 80,
+    },
+    {
+        name: "sakariye xasan",
+        gender: "Male",
+        grade: 60,
+    },
+    {
+        name: "nimco faarax",
+        gender: "Famale",
+        grade: 20,
+    },
+    {
+        name: "xuseen muxumud",
+        gender: "Male",
+        grade: 30,
+    },
+];
+
+// classB all name inside in?
+
+// 01
+// const classBNames = classB.map(function(student) {
+//    return student.name;
+// });
+
+// 02
+
+
+const classBNames = classB.map((student) => {
+    return student.name;
+});
+console.log(classBNames);
+s
+// are same
+//const classBNames = classB.map((student) => student.name); wxa kuu qabanaya arrow fun ka
+// console.log(classBNames);

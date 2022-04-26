@@ -18,7 +18,7 @@
 // console.log("Loop5");
 
 //i=5;i>0;i--
-//const names = ["subeer", "maxamed", "cali", "harbi", "ismaaciil"];
+// const names = ["subeer", "maxamed", "cali", "harbi", "ismaaciil"];
 
 // for (let i = 0; i < names.length; i++) {
 //     console.log(names[i]);
