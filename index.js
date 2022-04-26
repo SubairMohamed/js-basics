@@ -423,21 +423,31 @@ const fruits = ["orange", "apple", "lemon", "watermilen", "mango", "grapes"];
 
 // console.log(ArrayNumbers);
 
-const lacag = [
-    {
-        name: "Zaad",
-        amount: 20000,
-    },
-    {
-        name: "Sahal",
-        amount: 20000,
-    }
-];
+// const lacag = [
+//     {
+//         name: "Zaad",
+//         amount: 20000,
+//     },
+//     {
+//         name: "Sahal",
+//         amount: 30000,
+//     }
+// ];
 
-lacag.map((money) => { console.log("before:", money); });
+// lacag.map((money) => { console.log("before:", money); });
 
-const FunctionBySubstraction = (price) => {
-    return lacag.map((Money => {
-        return continuel;
-    }));
-};
+// const FunBySubstraction = (price) => {
+//    return lacag.map((Money) => {
+//        return Money.amount - price;
+//    });
+// }
+
+// const FunByNames = () => {
+//     return lacag.map((magacaan) => {
+//         return magacaan.name;
+//     });
+// }
+
+// const Bank = lacag.map((value) => value.amount);
+
+// console.log(Bank);
