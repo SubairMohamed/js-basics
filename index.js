@@ -529,7 +529,19 @@ const classB = [
 //    return student.gender === "Male";
 // });
 
-const classUnderfiveth = classB.filter(function(student) {
-    return student.grade < 50; 
-});
-console.log(classUnderfiveth);
+// const classUnderfiveth = classB.filter(function(student) {
+//     return student.grade === 100; 
+// });
+//  are same
+// const classUnderfiveth = classB.filter((student) => student.grade <= 50);
+// console.log(classUnderfiveth);
+
+// 03 Reduce
+// ==========
+
+// reduce = means sum or total... 
+
+const totalSum = classB.reduce((grade, student) => {console.log(grade)},0);
+
+
+console.log(totalSum);
