@@ -525,9 +525,9 @@ const classB = [
 // 02 Filter
 // =========
 
-// const classGirls = classB.filter((student) => {
-//    return student.gender === "Male";
-// });
+const classMales = classB.filter((student) => {
+   return student.gender === "Male";
+});
 
 // const classUnderfiveth = classB.filter(function(student) {
 //     return student.grade === 100; 
@@ -541,7 +541,17 @@ const classB = [
 
 // reduce = means sum or total... 
 
-const totalSum = classB.reduce((grade, student) => {console.log(grade)},0);
+// const lookthegrade = classB.reduce((grade, student) => {console.log(student.grade)},0);
+// look the grade total intial
 
+// const totalSum = classB.reduce((grade, student) => {
+//    let total = grade + student.grade;
+//    return total;
+// }, 0);   
+// console.log(totalSum);
 
-console.log(totalSum);
+const boys = classMales.reduce((grade, student) => {
+    return grade + student.grade;
+},0);
+
+console.log(boys);
