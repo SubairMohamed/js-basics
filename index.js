@@ -474,7 +474,7 @@ const classB = [
         grade: 50,
     },
     {
-        name: "nasr iid",
+        name: "nasri iid",
         gender: "Male",
         grade: 70,
     },
@@ -525,9 +525,9 @@ const classB = [
 // 02 Filter
 // =========
 
-const classMales = classB.filter((student) => {
-   return student.gender === "Male";
-});
+// const classMales = classB.filter((student) => {
+//    return student.gender === "Male";
+// });
 
 // const classUnderfiveth = classB.filter(function(student) {
 //     return student.grade === 100; 
@@ -550,8 +550,19 @@ const classMales = classB.filter((student) => {
 // }, 0);   
 // console.log(totalSum);
 
-const boys = classMales.reduce((grade, student) => {
-    return grade + student.grade;
-},0);
+// const boys = classMales.reduce((grade, student) => {
+//     return grade + student.grade;
+// },0);
+// console.log(boys);
 
-console.log(boys);
+// example three reduce 
+
+// const classGirls = classB.filter((student) => {
+//     return student.gender === "Male";
+// });
+// console.log(classGirls);
+
+// const totalgrade = classGirls.reduce((grade, student) => {
+//     return grade + student.grade;
+// },0);
+// console.log(totalgrade);
