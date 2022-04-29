@@ -566,3 +566,92 @@ const classB = [
 //     return grade + student.grade;
 // },0);
 // console.log(totalgrade);
+
+const rakaab = [
+    {
+        name: "maxamed cali faraax",
+        amount: 5,
+        price: 10,
+    },
+    {
+        name: "suhayb yaasiin cabdi",
+        amount: 8,
+        price: 10,
+    },
+    {
+        name: "xamda nuur cali",
+        amount: 10,
+        price: 10,
+    },
+];
+
+// 01 magacada rakaabka ?
+// 02 rakaabka ay lactu ku dhiman tahay ?
+// 03 rakaabka lacagta wada bixiyay ?
+// 04 dhamaan lacagta ay bixiyiin rakaabka ?
+// 05 dhamaan lacagta laga doonayay ?
+// 06 dhamaan lacagta dhiman ? 
+// 07 rakaab walba lacgta ku dhiman iyo magaciisa ?
+// ---------------------------------------------------
+
+console.log(rakaab);
+
+// 01 magacada rakaabka ?
+const namesofpassenger = rakaab.map((passenger) => {
+    return passenger.name;
+});
+// console.log(namesofpassenger);
+
+// 02 rakaabka ay lactu ku dhiman tahay ?
+const passengerBelowamount = rakaab.filter((passenger) => {
+    return passenger.amount < passenger.price;
+});
+// console.log(passengerBelowamount);
+
+// 03 rakaabka lacagta wada bixiyay ?
+const passengerfullamount = rakaab.filter((passenger) => {
+    return passenger.amount === passenger.price;
+});
+// console.log(passengerfullamount);
+
+// 04 dhamaan lacagta ay bixiyiin rakaabka ?
+const totalamountpassenger = rakaab.reduce((amount, passenger) => {
+    return amount + passenger.amount;
+}, 0); // 23
+// console.log(totalamountpassenger);
+
+// 05 dhamaan lacagta laga doonayay ?
+const totalpricepassenger = rakaab.reduce((price, passenger) => {
+    return price + passenger.price;
+}, 0); // 30
+// console.log(totalpricepassenger);
+
+// 06 dhamaan lacagta dhiman ? 
+//const lacagtamaqan = totalpricepassenger - totalamountpassenger;
+// console.log(lacagtamaqan);
+// are same
+
+const lacagtamaqan = rakaab.reduce((amount, passenger) => {
+    return amount - passenger.amount;
+}, totalpricepassenger);
+// console.log(lacagtamaqan);
+
+// 07 rakaab walba lacgta ku dhiman iyo magaciisa ?
+const detail = rakaab.map((passenger) => {
+    return {
+        fullname: passenger.name,
+        lacagtaKuDhiman: passenger.price - passenger.amount,
+        lacagtaAyBixiyiin: passenger.amount,
+        lacagtaLooGaBaahnaa: passenger.price,
+    };
+});
+
+// console.log(detail);
+// -------------------------
+// ---------------------------------
+// Exercise 4
+// 01 Sort ()
+// 02 Reverse ()
+// 03 JS Classes
+// 04 DOM Munipulation // project
+// ----------------------------------
