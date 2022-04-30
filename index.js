@@ -594,7 +594,7 @@ const rakaab = [
 // 07 rakaab walba lacgta ku dhiman iyo magaciisa ?
 // ---------------------------------------------------
 
-console.log(rakaab);
+// console.log(rakaab);
 
 // 01 magacada rakaabka ?
 const namesofpassenger = rakaab.map((passenger) => {
