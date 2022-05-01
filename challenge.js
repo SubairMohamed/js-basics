@@ -71,3 +71,20 @@ const quantityAboveTwenty = shop.filter((twenty) => {
 // console.log(quantityAboveTwenty); sax
 
 // 04 Total Price of All Quantity In Shop ? 
+
+const totalpriceOfQuantity = shop.reduce((price,Items) => {
+  return price + Items.price;
+},0);
+// console.log(totalpriceOfQuantity);
+
+// 06 Items Available In Shop ? 
+const ItemsAvailable = shop.filter((Available) => {
+  return Available.quantity > 0;
+});
+// console.log(ItemsAvailable);
+
+// 07 Items Unavailable In Shop ?
+const ItemsUNavailable = shop.filter((unavailable) => {
+  return unavailable.quantity === 0;
+});
+// console.log(ItemsUNavailable);
