@@ -25,3 +25,22 @@ const simple2 = [{
 // for (easytwo in simple2) {
 //     console.log(simple2[easytwo]);
 // }
+
+// forEach
+// ========
+// = higher order function, higher order array function
+
+// simple.forEach((magacyo) => {
+//     console.log(magacyo);
+// });
+
+// for loop
+// =========
+
+// for (let i = 0; i < 6; i++) {
+//     console.log(i);
+// }
+
+// for (let i = 0; i < simple.length; i++) {
+//     console.log(simple[i]);
+// }
