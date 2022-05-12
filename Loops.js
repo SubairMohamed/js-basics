@@ -18,6 +18,11 @@
 // console.log("Loop5");
 
 //i=5;i>0;i--
+// for (let i = 0; i < 5; i++) {
+//     console.log(i);
+// }
+
+// exaple two forloop
 // const names = ["subeer", "maxamed", "cali", "harbi", "ismaaciil"];
 
 // for (let i = 0; i < names.length; i++) {
@@ -58,7 +63,7 @@
 // ------------
 
 // numberka ka ku xiga ayuu ka bilaawayaa
-// let i = 0; 
+// let i = 0;
 // do {
 //     i++;
 //     //if (i === 5) break;
