@@ -23,7 +23,11 @@
 
 // Number 
 
-let tiro = Number ("20") + Number ("2");
+// Number ("10") + Number ("2") waa isku mid  +"10" +  +"2"
+// Number ("10") + "2" waa isku mid +"10" + 2
+// Number(true) waa isku mid +true
+
+let tiro = +false + 4;
 let nooc = typeof tiro;
 
 console.log(`${tiro}, ${nooc}`);
