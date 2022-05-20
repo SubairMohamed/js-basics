@@ -40,3 +40,16 @@
 // console.log(`${tiro}, ${nooc}`);
 // if () console.log("qeemo ayaa ku dhex jira"); 
 
+// Array 
+// =====
+// you can use two way
+
+// let languages = new Array("somali", "english", "Arabic");
+// let language = ["somali", "english", "Arabic", "Amharic"];
+
+// laba siyoon ayd array waxa ugu dari kartaa?
+// 01
+// let language = ["somali", "english", "Arabic", "Amharic"];
+// language[4] = "french";
+// console.log(language);
+// 02 Array Methods
