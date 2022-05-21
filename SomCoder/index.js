@@ -21,7 +21,7 @@
 // let nooc = typeof tiro;
 // console.log(tiro);
 
-// Number 
+// Number
 // Number ("10") + Number ("2") waa isku mid  +"10" +  +"2"
 // Number ("10") + "2" waa isku mid +"10" + 2
 // Number(true) waa isku mid +true
@@ -38,9 +38,9 @@
 // let tiro = Boolean ();
 // let nooc = typeof tiro;
 // console.log(`${tiro}, ${nooc}`);
-// if () console.log("qeemo ayaa ku dhex jira"); 
+// if () console.log("qeemo ayaa ku dhex jira");
 
-// Array 
+// Array
 // =====
 // you can use two way
 
@@ -62,7 +62,7 @@
 // persons.name = "subeer";
 // persons.Age = 21;
 
-// 02 
+// 02
 // let details = {
 
 //     name: "faarax",
@@ -75,17 +75,17 @@
 
 // array of objects
 
-let couserses = [
+// let couserses = [
 
-    {
-        couser: "HTML",
-        price: 5,
-    },
-    {
-        couser: "css",
-        price: 200,
-    },
+//     {
+//         couser: "HTML",
+//         price: 5,
+//     },
+//     {
+//         couser: "css",
+//         price: 200,
+//         'arday ma yahay': true,
+//     },
 
-];
-
-console.log(couserses[0].couser);
+// ];
+// console.log(couserses[1]["arday ma yahay"]);
