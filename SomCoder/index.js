@@ -53,3 +53,39 @@
 // language[4] = "french";
 // console.log(language);
 // 02 Array Methods
+
+// Objects
+// =======
+// you can use two way
+// 01
+// let persons = new Object();
+// persons.name = "subeer";
+// persons.Age = 21;
+
+// 02 
+// let details = {
+
+//     name: "faarax",
+//     age: 25,
+//     surname: "cabdi",
+//     shaqaale: true,
+// };
+// // details.shaqaale = true;
+// console.log(details.surname);
+
+// array of objects
+
+let couserses = [
+
+    {
+        couser: "HTML",
+        price: 5,
+    },
+    {
+        couser: "css",
+        price: 200,
+    },
+
+];
+
+console.log(couserses[0].couser);
