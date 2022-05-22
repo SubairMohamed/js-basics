@@ -100,7 +100,7 @@
 
 // array Destructuring
 
-let colors = ["red", "blue", "green", "yellow", "gray"];
+// let colors = ["red", "blue", "green", "yellow", "gray"];
 
 // let red = colors [0];
 // let blue = colors [1];
@@ -109,7 +109,24 @@ let colors = ["red", "blue", "green", "yellow", "gray"];
 // console.log(yellow);
 
 // Destructuring way 
-// ,, ka butitaanka 
-let [red, blue,...rest] = colors;
+// ,, ka butitaanka, inta hadhay sida loo baadho rest[2]
+// let [red, blue,...rest] = colors;
+// console.log(rest[2]);
 
-console.log(rest[2]);
+// object Destructuring
+
+// const employee = {
+
+//     firstName: "faarax",
+//     phone: 0634476,
+//     Address: "Hergarsia",
+//     department: {
+//         manager: "top level",
+//         social: "HR",
+//     },
+// };
+
+// let {Address ,department:{manager,social}, firstName:name} = employee;
+
+// console.log(Address);
+
