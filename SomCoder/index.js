@@ -39,6 +39,7 @@
 // let nooc = typeof tiro;
 // console.log(`${tiro}, ${nooc}`);
 // if () console.log("qeemo ayaa ku dhex jira");
+// ---------------------------------------------------------
 
 // Array
 // =====
@@ -53,6 +54,7 @@
 // language[4] = "french";
 // console.log(language);
 // 02 Array Methods
+// -----------------------------------------------------------------
 
 // Objects
 // =======
@@ -88,4 +90,26 @@
 //     },
 
 // ];
-// console.log(couserses[1]["arday ma yahay"]);
+// console.log(couserses[1].price,['arday ma yahay']);
+// --------------------------------------------------------------------------
+
+// Object Destructuring 
+// ====================
+
+// Destructuring = it has two types , array Destructuring , object Destructuring .
+
+// array Destructuring
+
+let colors = ["red", "blue", "green", "yellow", "gray"];
+
+// let red = colors [0];
+// let blue = colors [1];
+// let green = colors [2];
+// let yellow =  colors [3];
+// console.log(yellow);
+
+// Destructuring way 
+
+let [red,, green,, gray] = colors;
+
+console.log(gray);
