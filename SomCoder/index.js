@@ -109,7 +109,7 @@ let colors = ["red", "blue", "green", "yellow", "gray"];
 // console.log(yellow);
 
 // Destructuring way 
+// ,, ka butitaanka 
+let [red, blue,...rest] = colors;
 
-let [red,, green,, gray] = colors;
-
-console.log(gray);
+console.log(rest[2]);
