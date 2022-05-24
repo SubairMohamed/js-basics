@@ -53,7 +53,8 @@ class User {
 
 let Faarax = new User("faarax", "faarax44@yahoo.com");
 
-console.log(Faarax.Information());
+// console.log(cali.Information());
+
 
 // extend
 
@@ -69,4 +70,36 @@ class Admin extends User {
 
 let subeer = new Admin("subeer", "subeer44@gamil.com", "Admin");
 
-console.log(subeer.AdminInformation());
+// console.log(subeer.AdminInformation());
+
+// Circle
+
+// class Circle {
+//     constructor(width, height) {
+//         this.width = width;
+//         this.height = height;
+//     }
+//     circumfuris() {
+//         return `60: ${this.width} 100: ${this.height}`
+//     }
+// }
+
+// let radius = new Circle(60 + 100, 2(3.14));
+
+// console.log(radius.circumfuris());
+
+// // extends
+
+// class square extends Circle {
+//     constructor(width, height, length) {
+//         super(width, height);
+//         this.length = length;
+//     }
+//     total() {
+//         return `60: ${this.width} 100: ${this.height} 10: ${this.length}`
+//     }
+// }
+
+// let sum = new square(60 + 100, 3.14, 10);
+
+// console.log(sum.square());
