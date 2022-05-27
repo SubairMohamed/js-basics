@@ -129,4 +129,18 @@
 // let {Address ,department:{manager,social}, firstName:name} = employee;
 
 // console.log(Address);
+// ---------------------------------------------------------------------------
+
+// CallBack
+// ==========
+
+const foods = ["bariis", "baasto", "makaroone", "caano"];
+
+const firstOne = (array, CallBack) => {   /// hof
+    CallBack(array[0]);
+}
+
+firstOne(foods, (foodItems) => {
+    console.log(foodItems);
+})
 
