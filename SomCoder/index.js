@@ -93,7 +93,7 @@
 // console.log(couserses[1].price,['arday ma yahay']);
 // --------------------------------------------------------------------------
 
-// Object Destructuring 
+// Object Destructuring
 // ====================
 
 // Destructuring = it has two types , array Destructuring , object Destructuring .
@@ -108,7 +108,7 @@
 // let yellow =  colors [3];
 // console.log(yellow);
 
-// Destructuring way 
+// Destructuring way
 // ,, ka butitaanka, inta hadhay sida loo baadho rest[2]
 // let [red, blue,...rest] = colors;
 // console.log(rest[2]);
@@ -131,16 +131,5 @@
 // console.log(Address);
 // ---------------------------------------------------------------------------
 
-// CallBack
-// ==========
 
-const foods = ["bariis", "baasto", "makaroone", "caano"];
-
-const firstOne = (array, CallBack) => {   /// hof
-    CallBack(array[0]);
-}
-
-firstOne(foods, (foodItems) => {
-    console.log(foodItems);
-})
 
