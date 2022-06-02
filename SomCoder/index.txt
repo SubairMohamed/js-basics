@@ -1,3 +1,28 @@
+Classes
+=======
+const logo = document.createElement('h1');
+logo.ClassList
+logo.ClassList.add('main-logo');
+-------------------------------------
+logo.ClassList.remove('main-logo');
+logo.ClassList
+-----------------------------------
+const btn = document.createElement('.btn-one');
+btn
+btn.ClassList.toggle('.btn-two');
+------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 Create Element
 ==============
 const newmenu = document.createElement('a');
@@ -8,12 +33,6 @@ navbar.appendChild(newmenu);
 newmenu.textContent = 'help';
 newmenu.ClassList.add = 'secThree';
 --------------------------------------------
-
-
-
-
-
-
 
 DOM Traversal
 =============
