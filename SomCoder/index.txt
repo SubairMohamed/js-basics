@@ -1,3 +1,19 @@
+Property and Methods
+====================
+const content = document.querySelector('.paragraph');
+content
+content.textContent = "waa qoraal qeexaya dom oo ah javascript";
+-----------------------------------------------------------------
+const headerimg = document.querySelector('.img');
+headerimg
+headerimg.scr = "";
+-----------------------------------------------------------------
+const headerlogo = document.querySelector('#logo');
+headerlogo
+headerlogo.style.color = 'blue';
+headerlogo.style.fontsize = '4rem';
+-----------------------------------------------------------------
+
 Classes
 =======
 const logo = document.createElement('h1');
@@ -11,17 +27,6 @@ const btn = document.createElement('.btn-one');
 btn
 btn.ClassList.toggle('.btn-two');
 ------------------------------------
-
-
-
-
-
-
-
-
-
-
-
 
 Create Element
 ==============
