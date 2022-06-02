@@ -4,5 +4,11 @@ const header = document.querySelector('h1');
 header
 header.parentNode.style.backgroundColor = 'yellow';
 header.parentElement.style.backgroundColor = 'cyan';
+---------------------------------------
+const nav = document.querySelector('nav');
+nav
+nav.children
+nav.children[1].style.color = 'yellow';
+
 
 
