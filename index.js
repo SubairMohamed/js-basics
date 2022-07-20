@@ -98,8 +98,9 @@
 // 4) all types Of javascript operators?
 
 // Data Type
+// =========
 
-//    01 Primitive data type 
+// 01 Primitive data type 
 
 //  Number = 123456789;
 //  String = "subeer";
@@ -111,6 +112,9 @@
 // let numbers = 100;
 // let Strings = "alpha";
 // let tureorfalse = true;
+
+// let number = "100";
+// console.log(typeof number);
 
 ////////console///////
 // let number = 100;
