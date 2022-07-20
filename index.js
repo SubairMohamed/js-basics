@@ -23,8 +23,16 @@
 //  / Division
 //  % Modulus (Remainder)
 // ** Exponentiation  (waa square oo kale ) 
-// ++ Increment
+// ++ Increment  
 // -- Decrement
+
+// let mod = 10;
+// let mod2 = 8;
+// console.log(mod % mod2);
+
+// let mod = 5;
+// let mod2 = 2;
+// console.log(mod ** mod2);
 
 // let dec = 10;
 // console.log(dec--);
