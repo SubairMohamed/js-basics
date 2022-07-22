@@ -1,7 +1,7 @@
 // ES5 
 
-// function sayHello (name, greet) {
-//     console.log("Hello " + name + " How are you ? " + greet );
+// function sayHello (name) {
+//     console.log("Hello " + name + " How are you ? ");
 // }
 
 
@@ -77,3 +77,15 @@
 //     return car;  ku soo muujinaysaan = newArr[2]().stop()
 // }];
 // console.log(newArr);
+
+
+const fruit = ["banana", "Apple", "watermelon", "grapes", "guava", "papaya"];
+
+fruit.splice(6, 0, "fff");
+fruit.splice(6, 0);
+
+
+
+
+
+console.log(fruit);
