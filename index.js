@@ -204,6 +204,7 @@
 //     model: 2019,
 //     color: "white",
 //     weight: "850kg",
+// 
 //     start: function () {
 //         console.log("gaadhiga waa la istaadhay");
 //     },
@@ -245,6 +246,8 @@
 //console.log(vegetables);
 
 // Array methods
+// =============
+
 // 01 Push()
 // 02 Pop()
 // 03 Shift()
@@ -254,7 +257,7 @@
 // 07 Concat()
 
 
-const fruits = ["orange", "apple", "lemon", "watermilen", "mango", "grapes"];
+// const fruits = ["orange", "apple", "lemon", "watermilen", "mango", "grapes"];
 
 // push() = addes last element from the array.
 //fruits.push("banana", "saled",);
