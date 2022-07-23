@@ -81,8 +81,7 @@
 
 const fruit = ["banana", "Apple", "watermelon", "grapes", "guava", "papaya"];
 
-fruit.splice(6, 0, "fff");
-fruit.splice(6, 0);
+fruit.splice(3, 1, "fff");
 
 
 
