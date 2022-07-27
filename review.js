@@ -79,12 +79,20 @@
 // console.log(newArr);
 
 
-const fruit = ["banana", "Apple", "watermelon", "grapes", "guava", "papaya"];
+// const fruit = ["banana", "Apple", "watermelon", "grapes", "guava", "papaya"];
 
-fruit.splice(3, 1, "fff");
+// fruit.splice(3, 1, "fff");
 
+// console.log(fruit);
 
+// if statements
+// =============
 
+if (5 === 5) {
+    console.log("waa been");
+} else if (3 > 3) {
+    console.log("waa runtaa ");
+} else {
+    console.log("laba condition way khaldan yihiin");
+}
 
-
-console.log(fruit);
