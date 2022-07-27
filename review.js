@@ -88,11 +88,31 @@
 // if statements
 // =============
 
-if (5 === 5) {
-    console.log("waa been");
-} else if (3 > 3) {
-    console.log("waa runtaa ");
-} else {
-    console.log("laba condition way khaldan yihiin");
-}
+// if (5 === 5) {
+//     console.log("waa been");
+// } else if (3 > 3) {
+//     console.log("waa runtaa ");
+// } else {
+//     console.log("laba condition way khaldan yihiin");
+// }
 
+// lacag aan haystay
+// =================
+// const zaad = 100;
+// const eDahab = 250;
+// console.log("waa lacag aan haystay: ", zaad + eDahab);
+
+// // Alaab
+// // =====
+// const mouse = 200;
+// const keyboard = 205;
+// const hardDisk = 21;
+// console.log("waa Alaabtaydi: ", mouse + keyboard + hardDisk);
+
+// if (zaad >= mouse + keyboard + hardDisk) {
+//     console.log("lacag kugu filan kuguma jirto by zaad ");
+// } else if (eDahab >= mouse + keyboard + hardDisk) {
+//     console.log("lacag taadu way kugu filan tahay by eDahab");
+// } else {
+//     console.log("zaada IYO eDahab taada kuma filna labaduba");
+// }
