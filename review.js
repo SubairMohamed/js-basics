@@ -116,3 +116,25 @@
 // } else {
 //     console.log("zaada IYO eDahab taada kuma filna labaduba");
 // }
+
+// lacag aan haystay
+// =================
+// const zaad = 400;
+// const eDahab = 650;
+// const premierBank = 5000;
+
+// console.log("accounts :", zaad + eDahab + premierBank);
+
+// function saler(item) {
+//     if (zaad >= item) {
+//         console.log("you can buy by zaad");
+//     } else if (eDahab >= item) {
+//         console.log("you can buy by eDahab");
+//     } else if (premierBank >= item) {
+//         console.log("you can buy by premierBank");
+//     } else if (zaad + eDahab + premierBank >= item) {
+//         console.log("sum of my accounts");
+//     } else {
+//         console.log("you can't buy all accounts");
+//     }
+// }
