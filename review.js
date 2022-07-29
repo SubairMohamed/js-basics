@@ -138,3 +138,28 @@
 //         console.log("you can't buy all accounts");
 //     }
 // }
+
+// HOF
+// ====
+// map
+// filter
+// reduce
+
+// function numby5(value) {
+//     return value * 5
+// }
+
+const likeloop = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+likeloop.map(function (value) {
+    console.log("number " + value + " * 5 =", value * 5);
+    return value;
+});
+
+// auto func by map multiple
+// =====================
+
+// const multiple = (number) => {
+//     return likeloop.map((value) => value * number);
+// }
+
