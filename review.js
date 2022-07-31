@@ -149,12 +149,12 @@
 //     return value * 5
 // }
 
-const likeloop = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const likeloop = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-likeloop.map(function (value) {
-    console.log("number " + value + " * 5 =", value * 5);
-    return value;
-});
+// likeloop.map(function (value) {
+//     console.log("number " + value + " * 5 =", value * 5);
+//     return value;
+// });
 
 // auto func by map multiple
 // =====================
@@ -162,4 +162,30 @@ likeloop.map(function (value) {
 // const multiple = (number) => {
 //     return likeloop.map((value) => value * number);
 // }
+
+// const lacag = [
+//     {
+//         name: "zaad",
+//         amount: 80000
+//     },
+//     {
+//         name: "sahal",
+//         amount: 60000
+//     },
+// ];
+
+// lacag.map((money) => { console.log(money); });
+
+// const subsbyMoney = (price) => {
+//    return lacag.map((money) => {
+//       return money.amount - price;
+//    });
+// }
+
+
+
+
+
+
+
 
