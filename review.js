@@ -182,6 +182,72 @@
 //    });
 // }
 
+const classD = [
+    {
+        name: "maxamed ali",
+        gender: "Male",
+        grade: 100,
+    },
+    {
+        name: "xamda maxamed",
+        gender: "Female",
+        grade: 90,
+    },
+    {
+        name: "nasra jaamac",
+        gender: "Female",
+        grade: 50,
+    },
+    {
+        name: "muhiim cali",
+        gender: "Female",
+        grade: 50,
+    },
+    {
+        name: "nasri iid",
+        gender: "Male",
+        grade: 70,
+    },
+    {
+        name: "suhayb mukhtaar",
+        gender: "Male",
+        grade: 80,
+    },
+    {
+        name: "subeer maxamed",
+        gender: "Male",
+        grade: 80,
+    },
+    {
+        name: "sakariye xasan",
+        gender: "Male",
+        grade: 60,
+    },
+    {
+        name: "nimco faarax",
+        gender: "Female",
+        grade: 20,
+    },
+    {
+        name: "xuseen muxumud",
+        gender: "Male",
+        grade: 30,
+    },
+];
+
+
+// classD.map((names) => { console.log(names)});
+
+// const classNames = classD.map( function (student) {
+//     return student.name;
+// })
+
+
+const classGrades = classD.map((gra) => {
+    return gra.grade;
+});
+
+console.log(classGrades);
 
 
 
