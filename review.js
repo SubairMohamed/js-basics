@@ -243,11 +243,13 @@ const classD = [
 // })
 
 
-const classGrades = classD.map((gra) => {
-    return gra.grade;
-});
+// const classGrades = classD.map((gra) => {
+//     return gra.grade;
+// });
 
-console.log(classGrades);
+// const AllNames = classD.map((student) => student.name);
+
+// console.log(AllNames);
 
 
 
