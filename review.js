@@ -248,12 +248,31 @@ const classD = [
 // });
 
 // const AllNames = classD.map((student) => student.name);
-
 // console.log(AllNames);
 
+// filter 
+// ======
 
+// const underfiveth = classD.filter((grades) => {
+//     return  grades.gender === "Female";
+// });
+// console.log(underfiveth);
 
+// reduce 
+// =====
 
+// const lookGrade = classD.reduce((grade, student) => {
+//     return grade + student.grade;
+// }, 0);
+
+// console.log(lookGrade);
+
+// const anotherGrade = classD.reduce((grade, student) => {
+//     let total = grade + student.grade;
+//     return total;
+// }, 0);
+
+// console.log(anotherGrade);
 
 
 
