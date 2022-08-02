@@ -274,5 +274,17 @@ const classD = [
 
 // console.log(anotherGrade);
 
+// classD.map((dhamaan) => {console.log(dhamaan)});
+// ===================================================
 
+// const AllBoys = classD.filter((boys) => {
+//    return boys.gender === "Male";
+// });
 
+// console.log(AllBoys);
+
+// const AllGradeBoys = AllBoys.reduce((grade, boys) => {
+//     return grade + boys.grade;
+// }, 0);
+
+// console.log(AllGradeBoys);
