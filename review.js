@@ -294,7 +294,7 @@ const classD = [
 
 // for loop
 
-// for (i = 0; i < 100; i++) {
+// for (i = 0; i < 100; i++) {   let you can use or leave
 //     console.log(i);
 // }
 
@@ -314,3 +314,13 @@ const classD = [
 //     console.log(classD[student].grade);
 // }
 
+// while loop
+
+// let i = 0;
+// while (i < 10) {
+//     // console.log(i);
+//     i++;
+//     // if (i === 10) break;
+//     // if (i === 8) continue;
+//     console.log(i);
+// }
