@@ -324,3 +324,20 @@ const classD = [
 //     // if (i === 8) continue;
 //     console.log(i);
 // }
+
+// Do while loop
+
+
+// let i = 0;
+// do {
+//     i++;
+//     // if (i === 5) break;
+//     // if (i === 6) continue;
+//     console.log(i);
+// } while (i < 10);
+
+// foreEach HOF
+
+// classD.forEach(student => {
+//     console.log(student.grade);
+// });
