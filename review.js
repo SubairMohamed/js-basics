@@ -250,7 +250,7 @@ const classD = [
 // const AllNames = classD.map((student) => student.name);
 // console.log(AllNames);
 
-// filter 
+// filter
 // ======
 
 // const underfiveth = classD.filter((grades) => {
@@ -258,7 +258,7 @@ const classD = [
 // });
 // console.log(underfiveth);
 
-// reduce 
+// reduce
 // =====
 
 // const lookGrade = classD.reduce((grade, student) => {
@@ -288,3 +288,29 @@ const classD = [
 // }, 0);
 
 // console.log(AllGradeBoys);
+
+// loops
+// =====
+
+// for loop
+
+// for (i = 0; i < 100; i++) {
+//     console.log(i);
+// }
+
+// for (i = 0; i < classD.length; i++) {
+//     console.log(classD[i].gender);
+// }
+
+// for...fo loop
+
+// for (student of classD) {
+//     console.log(student.grade);
+// }
+
+// for...in loop
+
+// for (student in classD) {
+//     console.log(classD[student].grade);
+// }
+

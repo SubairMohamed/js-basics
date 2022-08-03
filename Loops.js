@@ -22,6 +22,7 @@
 //     console.log(i);
 // }
 
+
 // exaple two forloop
 // const names = ["subeer", "maxamed", "cali", "harbi", "ismaaciil"];
 
