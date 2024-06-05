@@ -1,4 +1,4 @@
-// variables 
+// variables
 
 // var x = 10;
 // let y = 12;
@@ -22,8 +22,8 @@
 //  * Multiplication
 //  / Division
 //  % Modulus (Remainder)
-// ** Exponentiation  (waa square oo kale ) 
-// ++ Increment  
+// ** Exponentiation  (waa square oo kale )
+// ++ Increment
 // -- Decrement
 
 // let mod = 10;
@@ -44,13 +44,13 @@
 
 // 02 comparison operator
 //========================
-// == Equalvalue 
+// == Equalvalue
 // === Equal type and value
 // != is not equal value
-// !== is not equal type and value 
-// > greater then 
+// !== is not equal type and value
+// > greater then
 // >= greather then or equal to
-// < less then 
+// < less then
 // <= less then or equal to
 
 // let num1 = 20;
@@ -59,8 +59,8 @@
 // console.log(num1 == 10);
 // console.log(num2 === num1);
 
-//console.log(num1 !== num2); // true 
-//console.log(num1 != num2);  //false 
+//console.log(num1 !== num2); // true
+//console.log(num1 != num2);  //false
 
 // let aa = 20;
 // let bb = 20;
@@ -73,8 +73,8 @@
 
 // 03 Logical operator
 //====================
-//  && = And 
-//  || = OR 
+//  && = And
+//  || = OR
 //  ! = NOT
 
 // let ss = 20;
@@ -90,7 +90,7 @@
 //  let cagsikale = false;
 //  console.log(!cagsikale);
 
-//Exercise 
+//Exercise
 //==========
 //1) all types Of javascript versions?
 // 2) diffrences Of (var), (let), (const)?
@@ -100,14 +100,13 @@
 // Data Type
 // =========
 
-// 01 Primitive data type 
+// 01 Primitive data type
 
 //  Number = 123456789;
 //  String = "subeer";
 //  Boolean = true , false;
 //  null = "wax madham";
 //  undefined = "wax aan jirin";
-
 
 // let numbers = 100;
 // let Strings = "alpha";
@@ -133,7 +132,7 @@
 // 'string'
 ///////////////////////
 
-//  02 Non-Primitive Datatype 
+//  02 Non-Primitive Datatype
 
 // functions
 // Objects
@@ -144,7 +143,7 @@
 
 //  ES5
 // function Name(x, y) {
-//     console.log("parameter 1 is ", x, "parameter 2 is ", y);
+//   console.log("parameter 1 is ", x, "parameter 2 is ", y);
 // }
 
 // ES6
@@ -166,7 +165,6 @@
 // const choice = sceneraio("subeer maxamed");
 // let choicetwo = sceneraio("subeer maxamed");
 
-
 // value variable
 // function readvariable(name) {
 //     return "Hello mr/mrs " + name;
@@ -183,7 +181,7 @@
 // 'Hello mr/mrs AYN'
 
 // fahrenhiet to celsium
-// formula = °C = (°F - 32) × 5/9, 
+// formula = °C = (°F - 32) × 5/9,
 // function tocel(fahrenhiet) {
 //     return (fahrenhiet - 32) * 5/9;
 // }
@@ -204,7 +202,7 @@
 //     model: 2019,
 //     color: "white",
 //     weight: "850kg",
-// 
+//
 //     start: function () {
 //         console.log("gaadhiga waa la istaadhay");
 //     },
@@ -255,7 +253,6 @@
 // 05 Splice()
 // 06 Slice()
 // 07 Concat()
-
 
 // const fruits = ["orange", "apple", "lemon", "watermilen", "mango", "grapes"];
 
@@ -468,56 +465,56 @@
 // console.log(Bank);
 
 const classB = [
-    {
-        name: "maxamed ali",
-        gender: "Male",
-        grade: 100,
-    },
-    {
-        name: "xamda maxamed",
-        gender: "Female",
-        grade: 90,
-    },
-    {
-        name: "nasra jaamac",
-        gender: "Female",
-        grade: 50,
-    },
-    {
-        name: "muhiim cali",
-        gender: "Female",
-        grade: 50,
-    },
-    {
-        name: "nasri iid",
-        gender: "Male",
-        grade: 70,
-    },
-    {
-        name: "suhayb mukhtaar",
-        gender: "Male",
-        grade: 80,
-    },
-    {
-        name: "subeer maxamed",
-        gender: "Male",
-        grade: 80,
-    },
-    {
-        name: "sakariye xasan",
-        gender: "Male",
-        grade: 60,
-    },
-    {
-        name: "nimco faarax",
-        gender: "Female",
-        grade: 20,
-    },
-    {
-        name: "xuseen muxumud",
-        gender: "Male",
-        grade: 30,
-    },
+  {
+    name: "maxamed ali",
+    gender: "Male",
+    grade: 100,
+  },
+  {
+    name: "xamda maxamed",
+    gender: "Female",
+    grade: 90,
+  },
+  {
+    name: "nasra jaamac",
+    gender: "Female",
+    grade: 50,
+  },
+  {
+    name: "muhiim cali",
+    gender: "Female",
+    grade: 50,
+  },
+  {
+    name: "nasri iid",
+    gender: "Male",
+    grade: 70,
+  },
+  {
+    name: "suhayb mukhtaar",
+    gender: "Male",
+    grade: 80,
+  },
+  {
+    name: "subeer maxamed",
+    gender: "Male",
+    grade: 80,
+  },
+  {
+    name: "sakariye xasan",
+    gender: "Male",
+    grade: 60,
+  },
+  {
+    name: "nimco faarax",
+    gender: "Female",
+    grade: 20,
+  },
+  {
+    name: "xuseen muxumud",
+    gender: "Male",
+    grade: 30,
+  },
 ];
 
 // classB all name inside in?
@@ -545,7 +542,7 @@ const classB = [
 // });
 
 // const classUnderfiveth = classB.filter(function(student) {
-//     return student.grade === 100; 
+//     return student.grade === 100;
 // });
 //  are same
 // const classUnderfiveth = classB.filter((student) => student.grade <= 50);
@@ -554,7 +551,7 @@ const classB = [
 // 03 Reduce
 // ==========
 
-// reduce = means sum or total... 
+// reduce = means sum or total...
 
 // const lookthegrade = classB.reduce((grade, student) => {console.log(student.grade)},0);
 // look the grade total intial
@@ -562,7 +559,7 @@ const classB = [
 // const totalSum = classB.reduce((grade, student) => {
 //    let total = grade + student.grade;
 //    return total;
-// }, 0);   
+// }, 0);
 // console.log(totalSum);
 
 // const boys = classMales.reduce((grade, student) => {
@@ -570,7 +567,7 @@ const classB = [
 // },0);
 // console.log(boys);
 
-// example three reduce 
+// example three reduce
 
 // const classGirls = classB.filter((student) => {
 //     return student.gender === "Male";
@@ -583,21 +580,21 @@ const classB = [
 // console.log(totalgrade);
 
 const rakaab = [
-    {
-        name: "maxamed cali faraax",
-        amount: 5,
-        price: 10,
-    },
-    {
-        name: "suhayb yaasiin cabdi",
-        amount: 8,
-        price: 10,
-    },
-    {
-        name: "xamda nuur cali",
-        amount: 10,
-        price: 10,
-    },
+  {
+    name: "maxamed cali faraax",
+    amount: 5,
+    price: 10,
+  },
+  {
+    name: "suhayb yaasiin cabdi",
+    amount: 8,
+    price: 10,
+  },
+  {
+    name: "xamda nuur cali",
+    amount: 10,
+    price: 10,
+  },
 ];
 
 // 01 magacada rakaabka ?
@@ -605,7 +602,7 @@ const rakaab = [
 // 03 rakaabka lacagta wada bixiyay ?
 // 04 dhamaan lacagta ay bixiyiin rakaabka ?
 // 05 dhamaan lacagta laga doonayay ?
-// 06 dhamaan lacagta dhiman ? 
+// 06 dhamaan lacagta dhiman ?
 // 07 rakaab walba lacgta ku dhiman iyo magaciisa ?
 // ---------------------------------------------------
 
@@ -613,52 +610,52 @@ const rakaab = [
 
 // 01 magacada rakaabka ?
 const namesofpassenger = rakaab.map((passenger) => {
-    return passenger.name;
+  return passenger.name;
 });
 // console.log(namesofpassenger);
 
 // 02 rakaabka ay lactu ku dhiman tahay ?
 const passengerBelowamount = rakaab.filter((passenger) => {
-    return passenger.amount < passenger.price;
+  return passenger.amount < passenger.price;
 });
 // console.log(passengerBelowamount);
 
 // 03 rakaabka lacagta wada bixiyay ?
 const passengerfullamount = rakaab.filter((passenger) => {
-    return passenger.amount === passenger.price;
+  return passenger.amount === passenger.price;
 });
 // console.log(passengerfullamount);
 
 // 04 dhamaan lacagta ay bixiyiin rakaabka ?
 const totalamountpassenger = rakaab.reduce((amount, passenger) => {
-    return amount + passenger.amount;
+  return amount + passenger.amount;
 }, 0); // 23
 // console.log(totalamountpassenger);
 
 // 05 dhamaan lacagta laga doonayay ?
 const totalpricepassenger = rakaab.reduce((price, passenger) => {
-    return price + passenger.price;
+  return price + passenger.price;
 }, 0); // 30
 // console.log(totalpricepassenger);
 
-// 06 dhamaan lacagta dhiman ? 
+// 06 dhamaan lacagta dhiman ?
 //const lacagtamaqan = totalpricepassenger - totalamountpassenger;
 // console.log(lacagtamaqan);
 // are same
 
 const lacagtamaqan = rakaab.reduce((amount, passenger) => {
-    return amount - passenger.amount;
+  return amount - passenger.amount;
 }, totalpricepassenger);
 // console.log(lacagtamaqan);
 
 // 07 rakaab walba lacgta ku dhiman iyo magaciisa ?
 const detail = rakaab.map((passenger) => {
-    return {
-        fullname: passenger.name,
-        lacagtaKuDhiman: passenger.price - passenger.amount,
-        lacagtaAyBixiyiin: passenger.amount,
-        lacagtaLooGaBaahnaa: passenger.price,
-    };
+  return {
+    fullname: passenger.name,
+    lacagtaKuDhiman: passenger.price - passenger.amount,
+    lacagtaAyBixiyiin: passenger.amount,
+    lacagtaLooGaBaahnaa: passenger.price,
+  };
 });
 
 // console.log(detail);
