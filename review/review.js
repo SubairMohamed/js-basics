@@ -2,13 +2,16 @@
 function name(x, y) {
   console.log("parameter 1 is ", x, "parameter 2 is ", y);
 }
-
 name(200, 300);
 
 function surname(first, last) {
   console.log("my name is ", first, "and my father name is ", last);
 }
-
 surname("subair", "mohamed");
 
-// ES6 AFTER 2015
+function vn(num) {
+  return num * 5;
+}
+
+let add = vn(3);
+console.log(add);
