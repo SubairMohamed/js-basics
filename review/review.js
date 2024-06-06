@@ -53,3 +53,20 @@ const tokel = (Kelvin) => {
 
 // 2 objects
 // =========
+const car = {
+  name: "toyoto",
+  color: "black",
+  weight: "700kg",
+  kilometer: "200km",
+
+  start: function () {
+    console.log("waa mrka gaadhigu la istaadho");
+  },
+
+  stop: function () {
+    console.log("waa mrka gaadhigu la istaajiyo");
+  },
+};
+console.log(car.name);
+car.stop();
+car.start();
