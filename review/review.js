@@ -69,6 +69,13 @@ const car = {
     console.log("waa mrka gaadhigu la istaajiyo");
   },
 };
-console.log(car.name);
-car.stop();
-car.start();
+// console.log(car.name);
+// car.stop();
+// car.start();
+
+// 3 Arrays
+// ========
+// arraygu waa variable gooni ah kaas oo values badan kuu keediya
+
+const variables = ["subeer", "xusen", "nimco", "sahra"];
+console.log(variables[1]);
