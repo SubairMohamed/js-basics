@@ -42,3 +42,6 @@ const tocel = (fahrenhiet) => {
 const tofah = (celsium) => {
   return (9 / 5) * celsium + 32;
 };
+
+// 2 objects
+// =========
