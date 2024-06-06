@@ -26,3 +26,11 @@
 // const waliga = addition("alpha");
 
 // console.log(changeble);
+
+// fahrenhiet to celsium
+
+// formula = C=  5/9(°F - 32)
+
+const tocel = (fahrenhiet) => {
+  return (5 / 9) * (fahrenhiet - 32);
+};
