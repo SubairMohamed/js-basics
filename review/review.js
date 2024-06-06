@@ -10,3 +10,5 @@ function surname(first, last) {
 }
 
 surname("subair", "mohamed");
+
+// ES6 AFTER 2015
