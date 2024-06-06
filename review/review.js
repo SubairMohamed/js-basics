@@ -43,5 +43,9 @@ const tofah = (celsium) => {
   return (9 / 5) * celsium + 32;
 };
 
+// Kelvin to Celsius:
+
+// formula C= K - 273
+
 // 2 objects
 // =========
