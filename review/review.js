@@ -77,5 +77,24 @@ const car = {
 // ========
 // arraygu waa variable gooni ah kaas oo values badan kuu keediya
 
-const variables = ["subeer", "xusen", "nimco", "sahra"];
-console.log(variables[1]);
+const person = {
+  name: "nimco",
+  weight: "70kg",
+
+  flat: function () {
+    console.log("nimco way buuranthy");
+  },
+};
+
+const variables = [
+  "subeer",
+  "xusen",
+  "nimco",
+  "sahra",
+  2000,
+  function () {
+    return person;
+  },
+];
+
+console.log(variables);
