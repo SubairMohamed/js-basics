@@ -77,24 +77,36 @@ const car = {
 // ========
 // arraygu waa variable gooni ah kaas oo values badan kuu keediya
 
-const person = {
-  name: "nimco",
-  weight: "70kg",
+// const person = {
+//   name: "nimco",
+//   weight: "70kg",
 
-  flat: function () {
-    console.log("nimco way buuranthy");
-  },
-};
+//   flat: function () {
+//     console.log("nimco way buuranthy");
+//   },
+// };
 
-const variables = [
-  "subeer",
-  "xusen",
-  "nimco",
-  "sahra",
-  2000,
-  function () {
-    return person;
-  },
-];
+// const variables = [
+//   "subeer",
+//   "xusen",
+//   "nimco",
+//   "sahra",
+//   2000,
+//   function () {
+//     return person;
+//   },
+// ];
+// console.log(variables[5]().flat());
 
-console.log(variables[5]().flat());
+const fruit = ["watermelon", "cabage", "carro", "banan"];
+
+// Array Methods
+// ============
+
+// 1) push()
+// 2) pop()
+// 3) shift()
+// 4) unshift()
+// 5) splice()
+// 6) slice()
+// 7) concat()
