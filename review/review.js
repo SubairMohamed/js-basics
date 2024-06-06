@@ -53,6 +53,8 @@ const tokel = (Kelvin) => {
 
 // 2 objects
 // =========
+// wxa kaste oo a duunka dhexyaala ayaa objecti ah
+
 const car = {
   name: "toyoto",
   color: "black",
