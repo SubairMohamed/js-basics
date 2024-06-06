@@ -47,5 +47,9 @@ const tofah = (celsium) => {
 
 // formula C= K - 273
 
+const tokel = (Kelvin) => {
+  return Kelvin - 273;
+};
+
 // 2 objects
 // =========
