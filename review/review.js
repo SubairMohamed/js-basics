@@ -34,3 +34,11 @@
 const tocel = (fahrenhiet) => {
   return (5 / 9) * (fahrenhiet - 32);
 };
+
+// celsium to fahrenhiet
+
+// formula F = (9/5 × °C) + 32
+
+const tofah = (celsium) => {
+  return (9 / 5) * celsium + 32;
+};
