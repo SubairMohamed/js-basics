@@ -97,4 +97,4 @@ const variables = [
   },
 ];
 
-console.log(variables);
+console.log(variables[5]().flat());
