@@ -4,3 +4,9 @@ function name(x, y) {
 }
 
 name(200, 300);
+
+function surname(first, last) {
+  console.log("my name is ", first, "and my father name is ", last);
+}
+
+surname("subair", "mohamed");
