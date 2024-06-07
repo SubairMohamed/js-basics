@@ -120,4 +120,9 @@ fruit.unshift("guava", "pineapple");
 fruit.shift();
 
 fruit.splice(3, 0, "apple");
+
+const myfavor = fruit.slice(0, 3);
+
 console.log(fruit);
+
+console.log(myfavor);
