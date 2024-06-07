@@ -110,3 +110,6 @@ const fruit = ["watermelon", "cabage", "carro", "banana"];
 // 5) splice()
 // 6) slice()
 // 7) concat()
+
+fruit.push("apple");
+console.log(fruit);
