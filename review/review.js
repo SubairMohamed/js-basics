@@ -109,7 +109,7 @@ const fruit = ["watermelon", "cabage", "carro", "banana"];
 // 4) shift()= deletes or removes the first element from the array
 // 5) splice()= it contains two function adding and removes from the array
 // 6) slice()= it make selecting existing element from the array
-// 7) concat()
+// 7) concat() creates a new array by merging existing array
 
 fruit.push("apple");
 
@@ -122,7 +122,11 @@ fruit.shift();
 fruit.splice(3, 0, "apple");
 
 const myfavor = fruit.slice(0, 3);
+// console.log(myfavor);
+
+const myhope = fruit.slice(0, 2);
+const myhate = fruit.slice(2, 4);
+const special = myhope.concat(myhate);
+console.log(special);
 
 console.log(fruit);
-
-console.log(myfavor);
