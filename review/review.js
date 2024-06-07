@@ -105,8 +105,8 @@ const fruit = ["watermelon", "cabage", "carro", "banana"];
 
 // 1) push()= adds last element from the array
 // 2) pop() = deletes or removes the last element from the array
-// 3) shift()
-// 4) unshift()
+// 3) unshift()= adds the first element from the array
+// 4) shift()
 // 5) splice()
 // 6) slice()
 // 7) concat()
@@ -114,4 +114,6 @@ const fruit = ["watermelon", "cabage", "carro", "banana"];
 fruit.push("apple");
 
 fruit.pop();
+
+fruit.unshift("guava", "pineapple");
 console.log(fruit);
