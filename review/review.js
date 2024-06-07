@@ -108,7 +108,7 @@ const fruit = ["watermelon", "cabage", "carro", "banana"];
 // 3) unshift()= adds the first element from the array
 // 4) shift()= deletes or removes the first element from the array
 // 5) splice()= it contains two function adding and removes from the array
-// 6) slice()
+// 6) slice()= it make selecting existing element from the array
 // 7) concat()
 
 fruit.push("apple");
