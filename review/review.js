@@ -98,12 +98,12 @@ const car = {
 // ];
 // console.log(variables[5]().flat());
 
-const fruit = ["watermelon", "cabage", "carro", "banan"];
+const fruit = ["watermelon", "cabage", "carro", "banana"];
 
 // Array Methods
 // ============
 
-// 1) push()
+// 1) push()= adds last element from the array
 // 2) pop()
 // 3) shift()
 // 4) unshift()
