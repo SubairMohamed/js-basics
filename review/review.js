@@ -141,3 +141,10 @@ if (10 > 10.5) {
 } else {
   console.log("isma leegka");
 }
+
+const zaad = 100;
+const eDahab = 20;
+// --------------
+const laptop = 80;
+const keyboard = 10;
+const mouse = 10;
