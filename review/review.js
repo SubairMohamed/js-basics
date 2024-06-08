@@ -134,8 +134,10 @@ console.log(fruit);
 // control statements
 // ==================
 
-if (10 == 10.5) {
+if (10 > 10.5) {
   console.log("waa sax");
-} else {
+} else if (0.5 <= 1) {
   console.log("way kala weyn yihin");
+} else {
+  console.log("isma leegka");
 }
