@@ -190,3 +190,6 @@ if (10 > 10.5) {
 //     console.log("kuma iibsan kartid macmiil!");
 //   }
 // }
+
+// higher order function (HOF)
+// =====================
