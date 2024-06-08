@@ -135,16 +135,24 @@ console.log(fruit);
 // ==================
 
 if (10 > 10.5) {
-  console.log("waa sax");
+  // console.log("waa sax");
 } else if (0.5 <= 1) {
-  console.log("way kala weyn yihin");
+  // console.log("way kala weyn yihin");
 } else {
-  console.log("isma leegka");
+  // console.log("isma leegka");
 }
 
 const zaad = 100;
 const eDahab = 20;
 // --------------
 const laptop = 80;
-const keyboard = 10;
+const keyboard = 12;
 const mouse = 10;
+
+if (zaad >= laptop + keyboard + mouse) {
+  console.log("waxad ku iibsan kartaa by ZAAD");
+} else if (eDahab >= laptop + keyboard + mouse) {
+  console.log("waxad ku iibsan kartaa by eDahab");
+} else {
+  console.log("hadhagagu kuguma filna macmiil");
+}
