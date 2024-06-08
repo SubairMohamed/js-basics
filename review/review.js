@@ -165,11 +165,28 @@ if (10 > 10.5) {
 
 // making statement by function
 // ---------------------------
+
 const zaad = 100;
-const eDahab = 200;
-// --------------
-const laptop = 80;
+const eDahab = 50;
+const accounts = zaad + eDahab;
+console.log(accounts);
+
+// -------------
+
+// item
+const laptop = 800;
 const keyboard = 12;
 const mouse = 10;
 const suwaal = 9;
 const shaadh = 12;
+
+const Allitem = laptop + keyboard + mouse + suwaal + shaadh;
+console.log(Allitem);
+
+function counter(Allitem) {
+  if (accounts > Allitem) {
+    console.log("waad ku iibsan kartaa by Accounts");
+  } else {
+    console.log("kuma iibsan kartid macmiil!");
+  }
+}
