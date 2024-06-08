@@ -142,23 +142,34 @@ if (10 > 10.5) {
   // console.log("isma leegka");
 }
 
+// const zaad = 100;
+// const eDahab = 20;
+// // --------------
+// const laptop = 80;
+// const keyboard = 12;
+// const mouse = 10;
+// const suwaal = 9;
+// const shaadh = 12;
+
+// if (zaad >= laptop + keyboard + mouse) {
+//   console.log("waxad ku iibsan kartaa by ZAAD");
+// } else if (eDahab >= laptop + keyboard + mouse) {
+//   console.log("waxad ku iibsan kartaa by eDahab");
+// } else if (zaad + eDahab >= laptop + keyboard + mouse + suwaal + shaadh) {
+//   console.log("waad ku iibsan kartaa zaad iyo edahab");
+// } else if (zaad + eDahab > laptop + keyboard + mouse - suwaal + shaadh) {
+//   console.log("waad ku iibsan kartaa!");
+// } else {
+//   console.log("hadhagagu kuguma filna macmiil");
+// }
+
+// making statement by function
+// ---------------------------
 const zaad = 100;
-const eDahab = 20;
+const eDahab = 200;
 // --------------
 const laptop = 80;
 const keyboard = 12;
 const mouse = 10;
 const suwaal = 9;
 const shaadh = 12;
-
-if (zaad >= laptop + keyboard + mouse) {
-  console.log("waxad ku iibsan kartaa by ZAAD");
-} else if (eDahab >= laptop + keyboard + mouse) {
-  console.log("waxad ku iibsan kartaa by eDahab");
-} else if (zaad + eDahab >= laptop + keyboard + mouse + suwaal + shaadh) {
-  console.log("waad ku iibsan kartaa zaad iyo edahab");
-} else if (zaad + eDahab >= laptop + keyboard + mouse - suwaal + shaadh) {
-  console.log("waad ku iibsan kartaa!");
-} else {
-  console.log("hadhagagu kuguma filna macmiil");
-}
