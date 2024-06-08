@@ -130,3 +130,12 @@ const special = myhope.concat(myhate);
 console.log(special);
 
 console.log(fruit);
+
+// control statements
+// ==================
+
+if (10 == 10.5) {
+  console.log("waa sax");
+} else {
+  console.log("way kala weyn yihin");
+}
