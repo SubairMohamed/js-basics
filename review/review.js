@@ -226,7 +226,3 @@ const lacag = [
     amount: 100000,
   },
 ];
-
-lacag.map(function (money) {
-  console.log("before : ", money);
-});
