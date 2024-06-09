@@ -230,3 +230,11 @@ const lacag = [
 lacag.map((money) => {
   console.log("before :", money);
 });
+
+const substraction = (price) => {
+  return lacag.map((money) => {
+    return money.amount - price;
+  });
+};
+
+console.log(substraction(20000));
