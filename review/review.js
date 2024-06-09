@@ -203,16 +203,16 @@ if (10 > 10.5) {
 
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-num.map(function (value) {
-  console.log("numbers " + value + " * 10 = ", value * 10);
-});
+// num.map(function (value) {
+//   console.log("numbers " + value + " * 10 = ", value * 10);
+// });
 
 // auto function eg 2
 
+const ArrayNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 const MultipleByNumber = (number) => {
-  return num.map((value) => {
-    value * number;
-  });
+  return ArrayNumbers.map((data) => data / number);
 };
 
-console.log(MultipleByNumber);
+console.log(ArrayNumbers);
