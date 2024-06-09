@@ -206,3 +206,13 @@ const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 num.map(function (value) {
   console.log("numbers " + value + " * 10 = ", value * 10);
 });
+
+// auto function eg 2
+
+const MultipleByNumber = (number) => {
+  return num.map((value) => {
+    value * number;
+  });
+};
+
+console.log(MultipleByNumber);
