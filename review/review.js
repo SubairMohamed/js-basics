@@ -215,3 +215,18 @@ if (10 > 10.5) {
 //   return ArrayNumbers.map((data) => data / number);
 // };
 // console.log(ArrayNumbers);
+
+const lacag = [
+  {
+    name: "zaad",
+    amount: 20000,
+  },
+  {
+    name: "eDahab",
+    amount: 100000,
+  },
+];
+
+lacag.map(function (money) {
+  console.log("before : ", money);
+});
