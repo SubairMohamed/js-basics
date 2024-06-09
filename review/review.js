@@ -211,8 +211,11 @@ const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const ArrayNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const MultipleByNumber = (number) => {
-  return ArrayNumbers.map((data) => data / number);
-};
+// const MultipleByNumber = (number) => {
+//   return ArrayNumbers.map((data) => data / number);
+// };
 
+function multiple(number) {
+  return ArrayNumbers.map((data) => data * number);
+}
 console.log(ArrayNumbers);
