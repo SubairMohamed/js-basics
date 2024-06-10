@@ -314,9 +314,15 @@ const Allgrades = classD.reduce((grade, student) => {
 //total iniatial
 console.log(Allgrades);
 
-const totalgrades = classD.reduce((marks, student) => {
-  let total = marks + student.grade;
-  return total;
-}, 0);
+// const totalgrades = classD.reduce((marks, student) => {
+//   let total = marks + student.grade;
+//   return total;
+// }, 0);
+// console.log(totalgrades);
 
-console.log(totalgrades);
+// are same
+
+const Allgrades2 = classD.reduce((grade, student) => {
+  return grade + student.grade;
+}, 0);
+console.log(Allgrades2);
