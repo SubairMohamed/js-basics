@@ -248,4 +248,29 @@ const classD = [
     gender: "Male",
     grade: 60,
   },
+  {
+    name: "nimco cabdi",
+    gender: "Female",
+    grade: 90,
+  },
+  {
+    name: "maxamed cali",
+    gender: "Male",
+    grade: 70,
+  },
+  {
+    name: "jibriil yooniz",
+    gender: "Male",
+    grade: 95,
+  },
+  {
+    name: "sahra maxamud",
+    gender: "Female",
+    grade: 80,
+  },
+  {
+    name: "basra axmed",
+    gender: "Female",
+    grade: 40,
+  },
 ];
