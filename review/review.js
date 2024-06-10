@@ -241,3 +241,11 @@ const substraction = (price) => {
 };
 
 console.log(substraction(20000));
+
+const classD = [
+  {
+    name: "xasan farax",
+    gender: "Male",
+    grade: 60,
+  },
+];
