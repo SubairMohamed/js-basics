@@ -98,7 +98,7 @@ const car = {
 // ];
 // console.log(variables[5]().flat());
 
-const fruit = ["watermelon", "cabage", "carro", "banana"];
+// const fruit = ["watermelon", "cabage", "carro", "banana"];
 
 // Array Methods
 // ============
@@ -111,25 +111,25 @@ const fruit = ["watermelon", "cabage", "carro", "banana"];
 // 6) slice()= it make selecting existing element from the array
 // 7) concat() creates a new array by merging existing array
 
-fruit.push("apple");
+// fruit.push("apple");
 
-fruit.pop();
+// fruit.pop();
 
-fruit.unshift("guava", "pineapple");
+// fruit.unshift("guava", "pineapple");
 
-fruit.shift();
+// fruit.shift();
 
-fruit.splice(3, 0, "apple");
+// fruit.splice(3, 0, "apple");
 
-const myfavor = fruit.slice(0, 3);
+// const myfavor = fruit.slice(0, 3);
 // console.log(myfavor);
 
-const myhope = fruit.slice(0, 2);
-const myhate = fruit.slice(2, 4);
-const special = myhope.concat(myhate);
-console.log(special);
+// const myhope = fruit.slice(0, 2);
+// const myhate = fruit.slice(2, 4);
+// const special = myhope.concat(myhate);
+// console.log(special);
 
-console.log(fruit);
+// console.log(fruit);
 
 // control statements
 // ==================
@@ -227,20 +227,20 @@ const lacag = [
   },
 ];
 
-lacag.map((money) => {
-  console.log("before :", money);
-});
+// lacag.map((money) => {
+//   console.log("before :", money);
+// });
 // or
 // const bank = lacag.map((value) => value.amount);
 // console.log(bank);
 
-const substraction = (price) => {
-  return lacag.map((money) => {
-    return money.amount - price;
-  });
-};
+// const substraction = (price) => {
+//   return lacag.map((money) => {
+//     return money.amount - price;
+//   });
+// };
 
-console.log(substraction(20000));
+// console.log(substraction(20000));
 
 const classD = [
   {
