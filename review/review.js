@@ -277,6 +277,18 @@ const classD = [
 
 // 1) ClassD all name inside in ?
 
-classD.map(function (student) {
-  console.log(student.name);
-});
+// classD.map(function (student) {
+//   console.log(student.name);
+// });
+
+// or
+
+// const Allstudents = classD.map((student) => {
+//   return student.name;
+// });
+// console.log(Allstudents);
+
+// or
+
+// const Allstudentss = classD.map((student) => student.name);
+// console.log(Allstudentss);
