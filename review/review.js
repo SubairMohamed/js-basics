@@ -274,3 +274,9 @@ const classD = [
     grade: 40,
   },
 ];
+
+// 1) ClassD all name inside in ?
+
+classD.map(function (student) {
+  console.log(student.name);
+});
