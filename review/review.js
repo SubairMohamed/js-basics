@@ -295,8 +295,9 @@ const classD = [
 
 // 2) classD only Males ?
 
-const boys = classD.filter((student) => {
-  return student.gender === "Male";
-});
+// const boys = classD.filter((student) => {
+//   return student.gender === "Male";
+// });
 
-console.log(boys);
+// const boys = classD.filter((student) => student.gender === "Male");
+// console.log(boys);
