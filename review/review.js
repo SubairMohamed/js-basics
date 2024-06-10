@@ -293,7 +293,9 @@ const classD = [
 // const Allstudentss = classD.map((student) => student.name);
 // console.log(Allstudentss);
 
-// 2) classD only Males ?
+// 2) Filter
+// ---------
+// 2 classD only Males ?
 
 // const boys = classD.filter((student) => {
 //   return student.gender === "Male";
