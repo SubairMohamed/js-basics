@@ -303,3 +303,20 @@ const classD = [
 
 // const boys = classD.filter((student) => student.gender === "Male");
 // console.log(boys);
+
+// 3) Reduce
+// ---------
+// sum or total, reduce it takes two argument
+
+const Allgrades = classD.reduce((grade, student) => {
+  console.log(student.grade);
+}, 0);
+//total iniatial
+console.log(Allgrades);
+
+const totalgrades = classD.reduce((marks, student) => {
+  let total = marks + student.grade;
+  return total;
+}, 0);
+
+console.log(totalgrades);
