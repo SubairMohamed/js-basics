@@ -230,6 +230,9 @@ const lacag = [
 lacag.map((money) => {
   console.log("before :", money);
 });
+// or
+// const bank = lacag.map((value) => value.amount);
+// console.log(bank);
 
 const substraction = (price) => {
   return lacag.map((money) => {
