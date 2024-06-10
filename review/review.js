@@ -326,3 +326,15 @@ const Allgrades2 = classD.reduce((grade, student) => {
   return grade + student.grade;
 }, 0);
 console.log(Allgrades2);
+
+// fetch only males total grade ?
+
+const Onlymales = classD.filter((student) => {
+  return student.gender === "Male";
+});
+console.log(Onlymales);
+
+const sumtotalmales = Onlymales.reduce((total, student) => {
+  return total + student.grade;
+}, 0);
+console.log(sumtotalmales);
