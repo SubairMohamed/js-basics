@@ -46,10 +46,10 @@ console.log(bixiyey);
 
 // 04 dhamaan lacagta ay bixiyiin rakaabka ?
 
-const Alltotal = rakaab.reduce((total, passenger) => {
+const lacagtaLabixiyay = rakaab.reduce((total, passenger) => {
   return total + passenger.amount;
 }, 0);
-console.log(Alltotal);
+console.log(lacagtaLabixiyay);
 
 // 05 dhamaan lacagta laga doonayay ?
 
@@ -57,3 +57,5 @@ const lacagtaLaDoonayo = rakaab.reduce((total, money) => {
   return total + money.price;
 }, 0);
 console.log(lacagtaLaDoonayo);
+
+// 06 dhamaan lacagta dhiman ?
