@@ -63,3 +63,8 @@ console.log(lacagtaLaDoonayo);
 // const lacagtaDhiman = lacagtaLabixiyay - lacagtaLaDoonayo;
 // console.log(lacagtaDhiman);
 // are same
+
+const lacagtaDhiman = rakaab.reduce((remain, passenger) => {
+  return remain - passenger.amount;
+}, lacagtaLaDoonayo);
+console.log(lacagtaDhiman);
