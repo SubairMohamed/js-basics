@@ -43,3 +43,10 @@ const bixiyey = rakaab.filter((money) => {
   return money.amount >= 10;
 });
 console.log(bixiyey);
+
+// 04 dhamaan lacagta ay bixiyiin rakaabka ?
+
+const Alltotal = rakaab.reduce((total, passenger) => {
+  return total + passenger.amount;
+}, 0);
+console.log(Alltotal);
