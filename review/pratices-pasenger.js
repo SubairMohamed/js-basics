@@ -29,3 +29,12 @@ const rakaab = [
 rakaab.map((names) => {
   console.log(names.name);
 });
+
+// 02 rakaabka ay lactu ku dhiman tahay ?
+
+const remainMoney = rakaab.filter((money) => {
+  return money.amount < 10;
+});
+console.log(remainMoney);
+
+// 03 rakaabka lacagta wada bixiyay ?
