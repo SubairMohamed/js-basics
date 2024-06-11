@@ -75,6 +75,8 @@ const ninWalbaLacagtaBixiyay = rakaab.map((passenger) => {
   return {
     fullname: passenger.name,
     lacagtaKuDhiman: passenger.amount - passenger.price,
+    lacagtaAybixiyeen: passenger.amount,
+    lacagtiiLogaBahna: passenger.price,
   };
 });
 console.log(ninWalbaLacagtaBixiyay);
