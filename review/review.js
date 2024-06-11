@@ -353,3 +353,7 @@ console.log(order);
 const vegetable = ["orange", "apple", "banana"];
 const vege = vegetable.reverse();
 console.log(vege);
+
+let strings = "welcome to my crash courses";
+const name = strings.reverse();
+console.log(strings);
