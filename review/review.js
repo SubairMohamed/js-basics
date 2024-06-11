@@ -343,17 +343,17 @@ const sumtotalmales = Onlymales.reduce((total, student) => {
 // ======
 // sort is acending order or alphabetic order
 
-const numbers = [9, 5, 6, 4, 1, 0, 2, 7, 8, 3];
-const order = numbers.sort();
-console.log(order);
+// const numbers = [9, 5, 6, 4, 1, 0, 2, 7, 8, 3];
+// const order = numbers.sort();
+// console.log(order);
 
 // Reverse()
 // =========
 
-const vegetable = ["orange", "apple", "banana"];
-const vege = vegetable.reverse();
-console.log(vege);
+// const vegetable = ["orange", "apple", "banana"];
+// const vege = vegetable.reverse();
+// console.log(vege);
 
-let strings = "welcome to my crash courses";
-const name = strings.split("").reverse().join("");
-console.log(name);
+// let strings = "welcome to my crash courses";
+// const name = strings.split("").reverse().join("");
+// console.log(name);

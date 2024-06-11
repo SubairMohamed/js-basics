@@ -27,7 +27,7 @@ const rakaab = [
 
 // 01 magacada rakaabka ?
 rakaab.map((names) => {
-  console.log(names.name);
+  // console.log(names.name);
 });
 
 // 02 rakaabka ay lactu ku dhiman tahay ?
@@ -35,28 +35,28 @@ rakaab.map((names) => {
 const remainMoney = rakaab.filter((money) => {
   return money.amount < 10;
 });
-console.log(remainMoney);
+// console.log(remainMoney);
 
 // 03 rakaabka lacagta wada bixiyay ?
 
 const bixiyey = rakaab.filter((money) => {
   return money.amount >= 10;
 });
-console.log(bixiyey);
+// console.log(bixiyey);
 
 // 04 dhamaan lacagta ay bixiyiin rakaabka ?
 
 const lacagtaLabixiyay = rakaab.reduce((total, passenger) => {
   return total + passenger.amount;
 }, 0);
-console.log(lacagtaLabixiyay);
+// console.log(lacagtaLabixiyay);
 
 // 05 dhamaan lacagta laga doonayay ?
 
 const lacagtaLaDoonayo = rakaab.reduce((total, money) => {
   return total + money.price;
 }, 0);
-console.log(lacagtaLaDoonayo);
+// console.log(lacagtaLaDoonayo);
 
 // 06 dhamaan lacagta dhiman ?
 
@@ -67,7 +67,7 @@ console.log(lacagtaLaDoonayo);
 const lacagtaDhiman = rakaab.reduce((remain, passenger) => {
   return remain - passenger.amount;
 }, lacagtaLaDoonayo);
-console.log(lacagtaDhiman);
+// console.log(lacagtaDhiman);
 
 // 07 rakaab walba lacgta ku dhiman iyo magaciisa ?
 
@@ -79,4 +79,4 @@ const ninWalbaLacagtaBixiyay = rakaab.map((passenger) => {
     lacagtiiLogaBahna: passenger.price,
   };
 });
-console.log(ninWalbaLacagtaBixiyay);
+// console.log(ninWalbaLacagtaBixiyay);
