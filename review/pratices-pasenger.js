@@ -38,3 +38,8 @@ const remainMoney = rakaab.filter((money) => {
 console.log(remainMoney);
 
 // 03 rakaabka lacagta wada bixiyay ?
+
+const bixiyey = rakaab.filter((money) => {
+  return money.amount >= 10;
+});
+console.log(bixiyey);
