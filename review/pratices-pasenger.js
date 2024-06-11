@@ -24,3 +24,8 @@ const rakaab = [
 // 06 dhamaan lacagta dhiman ?
 // 07 rakaab walba lacgta ku dhiman iyo magaciisa ?
 // ---------------------------------------------------
+
+// 01 magacada rakaabka ?
+rakaab.map((names) => {
+  console.log(names.name);
+});

@@ -309,10 +309,10 @@ const classD = [
 // sum or total, reduce it takes two argument
 
 const Allgrades = classD.reduce((grade, student) => {
-  console.log(student.grade);
+  // console.log(student.grade);
 }, 0);
 //total iniatial
-console.log(Allgrades);
+// console.log(Allgrades);
 
 // const totalgrades = classD.reduce((marks, student) => {
 //   let total = marks + student.grade;
@@ -325,16 +325,16 @@ console.log(Allgrades);
 const Allgrades2 = classD.reduce((grade, student) => {
   return grade + student.grade;
 }, 0);
-console.log(Allgrades2);
+// console.log(Allgrades2);
 
 // fetch only males total grade ?
 
 const Onlymales = classD.filter((student) => {
   return student.gender === "Male";
 });
-console.log(Onlymales);
+// console.log(Onlymales);
 
 const sumtotalmales = Onlymales.reduce((total, student) => {
   return total + student.grade;
 }, 0);
-console.log(sumtotalmales);
+// console.log(sumtotalmales);
