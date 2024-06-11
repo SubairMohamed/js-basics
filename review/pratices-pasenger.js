@@ -50,3 +50,10 @@ const Alltotal = rakaab.reduce((total, passenger) => {
   return total + passenger.amount;
 }, 0);
 console.log(Alltotal);
+
+// 05 dhamaan lacagta laga doonayay ?
+
+const lacagtaLaDoonayo = rakaab.reduce((total, money) => {
+  return total + money.price;
+}, 0);
+console.log(lacagtaLaDoonayo);
