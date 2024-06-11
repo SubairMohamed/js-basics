@@ -346,3 +346,10 @@ const sumtotalmales = Onlymales.reduce((total, student) => {
 const numbers = [9, 5, 6, 4, 1, 0, 2, 7, 8, 3];
 const order = numbers.sort();
 console.log(order);
+
+// Reverse()
+// =========
+
+const vegetable = ["orange", "apple", "banana"];
+const vege = vegetable.reverse();
+console.log(vege);
