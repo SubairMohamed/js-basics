@@ -68,3 +68,13 @@ const lacagtaDhiman = rakaab.reduce((remain, passenger) => {
   return remain - passenger.amount;
 }, lacagtaLaDoonayo);
 console.log(lacagtaDhiman);
+
+// 07 rakaab walba lacgta ku dhiman iyo magaciisa ?
+
+const ninWalbaLacagtaBixiyay = rakaab.map((passenger) => {
+  return {
+    fullname: passenger.name,
+    lacagtaKuDhiman: passenger.amount - passenger.price,
+  };
+});
+console.log(ninWalbaLacagtaBixiyay);
