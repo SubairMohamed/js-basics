@@ -59,3 +59,7 @@ const lacagtaLaDoonayo = rakaab.reduce((total, money) => {
 console.log(lacagtaLaDoonayo);
 
 // 06 dhamaan lacagta dhiman ?
+
+// const lacagtaDhiman = lacagtaLabixiyay - lacagtaLaDoonayo;
+// console.log(lacagtaDhiman);
+// are same
