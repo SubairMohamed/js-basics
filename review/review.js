@@ -338,3 +338,7 @@ const sumtotalmales = Onlymales.reduce((total, student) => {
   return total + student.grade;
 }, 0);
 // console.log(sumtotalmales);
+
+// sort()
+// ======
+// sort is acending order or alphabetic order
