@@ -22,8 +22,18 @@
 
 const names = ["subair", "xusen", "cali", "ismacil", "sahra", "nasra"];
 
+const AllName = {
+  name: "xasan",
+  grade: 100,
+  marks: "A",
+};
+
 // for (let i = 0; i < names.length; i++) {
 //   console.log(names[i]);
 // }
 
 // 2) For...of loop
+
+for (students of names) {
+  console.log(students);
+}
