@@ -38,6 +38,8 @@ const AllName = {
 //   console.log(students);
 // }
 
-for (std in names) {
-  console.log(names[std]);
-}
+// 3) For...in loop
+
+// for (std in names) {
+//   console.log(names[std]);
+// }
