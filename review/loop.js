@@ -43,3 +43,5 @@ const AllName = {
 // for (std in names) {
 //   console.log(names[std]);
 // }
+
+// 4) ForEach loop = HOF
