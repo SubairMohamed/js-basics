@@ -19,3 +19,9 @@
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
+
+const names = ["subair", "xusen", "cali", "ismacil", "sahra", "nasra"];
+
+for (let i = 0; i < names.length; i++) {
+  console.log(names[i]);
+}
