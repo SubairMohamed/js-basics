@@ -45,3 +45,7 @@ const AllName = {
 // }
 
 // 4) ForEach loop = HOF
+
+names.forEach((students) => {
+  console.log(students);
+});
