@@ -16,9 +16,9 @@
 // console.log("loops 4");
 // console.log("loops 5");
 
-for (let i = 0; i < 10; i++) {
-  console.log(i);
-}
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
 
 const names = ["subair", "xusen", "cali", "ismacil", "sahra", "nasra"];
 
