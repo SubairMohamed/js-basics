@@ -22,3 +22,15 @@ function TwoNumberFc2(array, targetSum) {
   }
   return [];
 }
+
+function TwoNumberFc3(array, targetSum) {
+  array.sort((a, b) => a - b);
+  let left = 0;
+  let right = array.length - 1;
+  while (left < right) {
+    const sum = array[left] + array[right];
+    if (sum === targetSum) {
+      return [array[left], array[right]];
+    }
+  }
+}
