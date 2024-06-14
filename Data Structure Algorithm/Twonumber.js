@@ -29,8 +29,8 @@ function TwoNumberFc3(array, targetSum) {
   let right = array.length - 1;
   while (left < right) {
     const sum = array[left] + array[right];
-    if (sum === targetSum) {
-      return [array[left], array[right]];
-    }
+    if (sum === targetSum) return [array[left], array[right]];
+    else if (sum > targetSum) right--;
+    else if (sum < targetSum) left++;
   }
 }
