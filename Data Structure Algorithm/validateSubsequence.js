@@ -11,3 +11,15 @@ const subsquence = [1, 6, -1, 10];
 //   }
 //   return seqIdx === subsquence.length;
 // }
+
+// another solution 2
+// ------------------
+
+function isValidSubsequence(array, subsquence) {
+  let seqIdx = 0;
+  for (const value of array) {
+    if (seqIdx === subsquence.length) break;
+    if (subsquence[seqIdx] === value) seqIdx++;
+  }
+  return seqIdx === subsquence.length;
+}
