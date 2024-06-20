@@ -30,3 +30,5 @@ function isValidSubsequence(array, subsquence) {
 const competition = [{ Html: "C#" }, { "C#": "Js" }, { Js: "Html" }];
 
 let results = [0, 0, 1];
+
+function TournamentWinner(competition, results) {}
