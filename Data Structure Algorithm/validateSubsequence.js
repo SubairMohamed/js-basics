@@ -26,3 +26,5 @@ function isValidSubsequence(array, subsquence) {
 
 // Tournament winner
 // ================
+
+const competition = [{ Html: "C#" }, { "C#": "Js" }, { Js: "Html" }];
