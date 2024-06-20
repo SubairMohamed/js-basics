@@ -23,3 +23,6 @@ function isValidSubsequence(array, subsquence) {
   }
   return seqIdx === subsquence.length;
 }
+
+// Tournament winner
+// ================
