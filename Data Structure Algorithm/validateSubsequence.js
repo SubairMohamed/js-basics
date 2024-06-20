@@ -31,4 +31,10 @@ const competition = [{ Html: "C#" }, { "C#": "Js" }, { Js: "Html" }];
 
 let results = [0, 0, 1];
 
-function TournamentWinner(competition, results) {}
+function TournamentWinner(competition, results) {
+  let currentBestTeam = "";
+  const scores = { [currentBestTeam]: 0 };
+  for (let idx = 0; idx < competition.length; idx++) {
+    const result = results[idx];
+  }
+}
