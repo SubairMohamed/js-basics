@@ -42,3 +42,8 @@ function TournamentWinner(competition, results) {
     updateScores(winningTeam, scores);
   }
 }
+
+function updateScores(team, scores) {
+  if (!(team in scores)) scores[team] = 0;
+  scores[team] += 3;
+}
