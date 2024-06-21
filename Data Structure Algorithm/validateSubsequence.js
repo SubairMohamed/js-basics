@@ -40,7 +40,11 @@ function TournamentWinner(competition, results) {
     const [homeTeam, awayTeam] = competition[idx];
     const winningTeam = result === HOME_TEAM_WON ? homeTeam : awayTeam;
     updateScores(winningTeam, scores);
+    if (scores[winningTeam] > scores[currentBestTeam]) {
+      currentBestTeam = winningTeam;
+    }
   }
+  return currentBestTeam;
 }
 
 function updateScores(team, scores) {
