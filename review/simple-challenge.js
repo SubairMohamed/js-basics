@@ -1,3 +1,6 @@
+// Challenge
+// =========
+
 // 01 Total Quantity In Shop ?
 // 02 Total Items In Shop ?
 // 03 Items Quantity Above Twenty ?
@@ -48,3 +51,11 @@ const shop = [
     quantity: 0,
   },
 ];
+
+// 01 Total Quantity In Shop ?
+
+const TotalQuatityShop = shop.reduce((total, quantity) => {
+  return total + quantity.quantity;
+}, 0);
+
+console.log(TotalQuatityShop);
