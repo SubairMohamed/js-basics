@@ -67,3 +67,11 @@ const TotalItemsShop = shop.map((total) => {
 });
 
 console.log(TotalItemsShop);
+
+// 03 Items Quantity Above Twenty ?
+
+const ItemsQuantityAbove20ty = shop.filter((Above) => {
+  return Above.quantity >= 20;
+});
+
+console.log(ItemsQuantityAbove20ty);
