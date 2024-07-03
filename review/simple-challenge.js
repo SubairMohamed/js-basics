@@ -59,3 +59,11 @@ const TotalQuatityShop = shop.reduce((total, quantity) => {
 }, 0);
 
 console.log(TotalQuatityShop);
+
+// 02 Total Items In Shop ?
+
+const TotalItemsShop = shop.map((total) => {
+  return total.item;
+});
+
+console.log(TotalItemsShop);
