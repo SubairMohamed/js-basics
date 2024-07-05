@@ -75,3 +75,11 @@ const ItemsQuantityAbove20ty = shop.filter((Above) => {
 });
 
 console.log(ItemsQuantityAbove20ty);
+
+// 04 Total Price of All Quantity In Shop ?
+
+const TotalOfAllQuantity = shop.reduce((price, item) => {
+  return price + item.price;
+}, 0);
+
+console.log(TotalOfAllQuantity);
