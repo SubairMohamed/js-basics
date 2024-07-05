@@ -83,3 +83,14 @@ const TotalOfAllQuantity = shop.reduce((price, item) => {
 }, 0);
 
 console.log(TotalOfAllQuantity);
+
+// 05 Total Price of Available Items ?
+
+const TotalPriceOfAvailableItems = shop.map((available) => {
+  return {
+    alaabtaTaala: available.item,
+    qiimahaAlaabta: available.price,
+  };
+});
+
+console.log(TotalPriceOfAvailableItems);
