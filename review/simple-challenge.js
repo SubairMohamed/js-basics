@@ -94,3 +94,5 @@ const TotalPriceOfAvailableItems = shop.map((available) => {
 });
 
 console.log(TotalPriceOfAvailableItems);
+
+// 07 Items Unavailable In Shop ?
