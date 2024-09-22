@@ -31,6 +31,10 @@
         const out = () => {
             //document.write("this is mouse out");
         }
+
+        const onblur = () => {
+            alert(welcome);
+        }
     </script>
 
     <!-- onclick -->
@@ -56,5 +60,8 @@
 
       <!-- OnChange -->
        <input type="text" onchange="alert(this.value)">
+
+       <!-- OnBlur -->
+         <input type="text" onblur="alert(this.value)">
 </body>
 </html>
