@@ -18,9 +18,9 @@
         //}
 
         //onkeydown
-        const submit = () => {
+        //const submit = () => {
             //alert("this is keydown");
-        }
+        //}
 
         //onMouseOver
         const over = () => {
@@ -34,8 +34,14 @@
 
         //Onfocus
         function focus() { 
-            alert("In focus"); 
+            alert("welcome"); 
         } 
+
+        //onsubmit
+        function submit () {
+         alert("welcome-data");
+        }
+
     </script>
 
     <!-- onclick -->
@@ -69,6 +75,11 @@
         <!-- <img onload="alert('the image succesfully')" src="/DOM manipulation.png"> -->
 
         <!-- Onfocus -->
+        <!-- <input type="text" onfocus="alert()"> -->
 
+        <!-- onsubmit -->
+         <form onsubmit="submit()">
+            <input type="submit" value="submit">
+         </form>
 </body>
 </html>
