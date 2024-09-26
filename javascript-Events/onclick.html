@@ -53,10 +53,12 @@
             }
 
         //onselect
-        function select () {
-            alert ("select is working");
-        }
+        function select() { 
+            alert("onselect performed") 
+            }
 
+        //onscroll
+        function scroll() { alert("scroll performed") } 
     </script>
 
     <!-- onclick -->
@@ -104,6 +106,9 @@
           <input onkeypress="submit()" > 
 
           <!-- onselect -->
-           <input type="text" onselect="select()">
+          <input type="text" onselect="select()"> 
+
+          <!-- onscroll -->
+          <div onscroll="scroll()"></div>
 </body>
 </html>
