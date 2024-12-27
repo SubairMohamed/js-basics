@@ -10,3 +10,9 @@
 // Booleans - true or false value
 // Null - empty value or no value
 // Undefined - a declared variable without a value
+
+// example
+
+let word = "nlpha";
+word[0] = "a";
+console.log(word);
