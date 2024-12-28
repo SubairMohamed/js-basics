@@ -21,6 +21,9 @@ let num1 = 3;
 let num2 = 3;
 console.log(num1 == num2);
 
+// let sum = num1;
+// console.log(sum);
+
 // 2) NON-Primitive Data Types
 // Array = mutable
 // Object = mutable
