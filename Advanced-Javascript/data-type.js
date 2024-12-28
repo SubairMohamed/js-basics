@@ -44,4 +44,13 @@ const person = {
     name: "subair",
     study: "alpha"
 };
-console.log(person);
+
+const per = {
+    name: "subair",
+    study: "alpha"
+};
+
+console.log(per == person);
+
+let name = per;
+console.log(name); 
