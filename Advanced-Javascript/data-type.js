@@ -54,3 +54,6 @@ console.log(per == person);
 
 let name = per;
 console.log(name); 
+
+// Numbers 
+// Numbers are integers and decimal values which can do all the arithmetic operations
