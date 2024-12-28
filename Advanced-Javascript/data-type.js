@@ -37,3 +37,11 @@ console.log(arr);
 let num = [6, 7, 8, 9];
 let numbers = [6, 7, 8, 9];
 console.log(num == numbers);
+
+// Object = mutable
+
+const person = {
+    name: "subair",
+    study: "alpha"
+};
+console.log(person);
