@@ -64,3 +64,6 @@ let bodyTempature = 37;
 let pi = 3.14;
 
 console.log(age, height, bodyTempature, pi);
+
+const py = Math.PI;
+console.log(py);
