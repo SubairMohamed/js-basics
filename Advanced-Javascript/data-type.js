@@ -82,3 +82,8 @@ console.log(Math.max(0, 1, 20, 99, 70, -80)); // max return the maximun value
 const rdm = Math.random();
 console.log(rdm);
 
+// const rndom = Math.floor(Math.random() * 10);
+// console.log(rndom);
+
+// const rndom = Math.ceil(Math.random() * 10);
+// console.log(rndom);
