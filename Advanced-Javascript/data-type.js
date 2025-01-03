@@ -57,3 +57,10 @@ console.log(name);
 
 // Numbers 
 // Numbers are integers and decimal values which can do all the arithmetic operations
+
+let age = 20;
+let height = 5.7;
+let bodyTempature = 37;
+let pi = 3.14;
+
+console.log(age, height, bodyTempature, pi);
