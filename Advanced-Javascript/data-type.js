@@ -96,3 +96,7 @@ console.log(Math.sqrt(100));
 
 // power 
 console.log(Math.pow(10, 2)); 
+
+// trigonometry
+console.log(Math.sin(60))
+console.log(Math.cos(60))
