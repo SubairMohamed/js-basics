@@ -92,4 +92,4 @@ console.log(rdm);
 console.log(Math.abs(1)); 
 
 // squere root 
-console.log(Math.abs(1)); 
+console.log(Math.sqrt(4)); 
