@@ -87,3 +87,6 @@ console.log(rdm);
 
 // const rndom = Math.ceil(Math.random() * 10);
 // console.log(rndom);
+
+// absolute value
+console.log(Math.abs(-1)); 
