@@ -67,3 +67,6 @@ console.log(age, height, bodyTempature, pi);
 
 const py = Math.PI;
 console.log(py);
+
+// Rounding closets number 
+// if above 0.5 then round up otherwise round down if below 0.5
