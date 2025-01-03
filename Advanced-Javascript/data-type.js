@@ -70,3 +70,7 @@ console.log(py);
 
 // Rounding closets number 
 // if above 0.5 then round up otherwise round down if below 0.5
+
+console.log(Math.round(2.6));
+console.log(Math.round(1.3));
+console.log(Math.floor(1.3)); // floor rounding down
