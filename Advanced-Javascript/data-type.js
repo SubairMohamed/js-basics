@@ -74,3 +74,4 @@ console.log(py);
 console.log(Math.round(2.6));
 console.log(Math.round(1.3));
 console.log(Math.floor(1.3)); // floor rounding down
+console.log(Math.ceil(9.2)); // ceil roundin up
