@@ -93,3 +93,6 @@ console.log(Math.abs(1));
 
 // squere root 
 console.log(Math.sqrt(4)); 
+
+// power 
+console.log(Math.pow(10, 2)); 
