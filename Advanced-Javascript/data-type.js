@@ -77,3 +77,8 @@ console.log(Math.floor(1.3)); // floor rounding down
 console.log(Math.ceil(9.2)); // ceil roundin up
 console.log(Math.min(0, 1, 20, 99, 70, -80)); // min return the minimum value
 console.log(Math.max(0, 1, 20, 99, 70, -80)); // max return the maximun value
+
+// Random number is a number between 0 and 0.999999
+const rdm = Math.random();
+console.log(rdm);
+
