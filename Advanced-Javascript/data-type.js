@@ -118,3 +118,9 @@ let para = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki. \ I am a t
 
 let str = "I hope every one is enjoying! \"the\" JavaScript tutorial";
 console.log(str);
+
+// Template literal or template string
+
+let a = 4;
+let b = 5;
+console.log(`the sum of ${a} and ${b} is ${a + b}`);
