@@ -100,3 +100,13 @@ const rdm = Math.random();
 // trigonometry
 // console.log(Math.sin(60))
 // console.log(Math.cos(60))
+
+// Strings
+// ======
+
+// long literal string
+let para = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki. \ I am a teacher and I love teaching.\ I teach HTML, CSS, JavaScript, React,\ Redux, Node.js, Python, Data Analysis and";
+// console.log(para);
+
+// Escape sequences in string
+
