@@ -111,3 +111,5 @@ let para = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki. \ I am a t
 // Escape sequences in string
 
 // \n - new line
+// \t - tab
+// \\ - backslash
