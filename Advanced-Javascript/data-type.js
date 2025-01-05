@@ -115,3 +115,6 @@ let para = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki. \ I am a t
 // \\ - backslash
 // \' - single quote
 // \" - double quote"
+
+let str = "I hope every one is enjoying! \n the JavaScript tutorial";
+console.log(str);
