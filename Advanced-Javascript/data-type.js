@@ -113,3 +113,5 @@ let para = "My name is Asabeneh Yetayeh. I live in Finland, Helsinki. \ I am a t
 // \n - new line
 // \t - tab
 // \\ - backslash
+// \' - single quote
+// \" - double quote"
