@@ -152,3 +152,8 @@ console.log(fIndex);
 
 let magac = "mohamed";
 console.log(magac.toUpperCase());
+
+  //toLowerCase()
+
+let magac1 = "ALI";
+console.log(magac1.toLowerCase());
