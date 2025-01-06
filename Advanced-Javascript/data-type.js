@@ -147,3 +147,8 @@ let pro1 = "javascript";
 // console.log(pro1[9]);
 let fIndex = pro1.length - 1;
 console.log(fIndex);
+
+  //toUpperCase()
+
+let magac = "mohamed";
+console.log(magac.toUpperCase());
