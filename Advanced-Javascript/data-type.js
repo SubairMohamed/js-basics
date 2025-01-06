@@ -136,7 +136,9 @@ console.log(`my name is ${fullname}, and my age is ${Age}, i come from ${country
 
 // String Methods
 
-  // 1. length
+  // 1.length
 
 let pro = "javascript";
 console.log(pro.length);
+
+  // 2.accessing characters in a string
