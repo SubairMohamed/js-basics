@@ -129,7 +129,7 @@ let firstname = "xasan";
 let lastname = "faarax";
 let Age = 30;
 let country = "somaliland";
-let job = "im web developer";
+let job = "web developer";
 let fullname = firstname + " " + lastname;
 
-console.log(fullname);
+console.log(`my name is ${fullname}, and my age is ${Age}, i come from ${country}, i work for ${job}`);
