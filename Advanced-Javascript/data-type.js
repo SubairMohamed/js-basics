@@ -142,3 +142,8 @@ let pro = "javascript";
 console.log(pro.length);
 
   // 2.accessing characters in a string
+
+let pro1 = "javascript";
+// console.log(pro1[9]);
+let fIndex = pro1.length - 1;
+console.log(fIndex);
