@@ -148,12 +148,18 @@ let pro1 = "javascript";
 let fIndex = pro1.length - 1;
 console.log(fIndex);
 
-  //toUpperCase()
+  //3.toUpperCase()
 
 let magac = "mohamed";
 console.log(magac.toUpperCase());
 
-  //toLowerCase()
+  //4.toLowerCase()
 
 let magac1 = "ALI";
 console.log(magac1.toLowerCase());
+
+  //5.substr() =  it extracts a part of a string and returns a new string
+
+let school = "university";
+console.log(school.substr(2, 9));
+
