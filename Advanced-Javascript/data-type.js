@@ -130,6 +130,6 @@ let lastname = "faarax";
 let Age = 30;
 let country = "somaliland";
 let job = "im web developer";
-let fullname = firstname + lastname;
+let fullname = firstname + " " + lastname;
 
 console.log(fullname);
