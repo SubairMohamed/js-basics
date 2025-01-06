@@ -124,3 +124,10 @@ console.log(str);
 let a = 4;
 let b = 5;
 console.log(`the sum of ${a} and ${b} is ${a + b}`);
+
+let firstname = "xasan";
+let lastname = "faarax";
+let Age = 30;
+let country = somaliland;
+let job = "im web developer";
+
