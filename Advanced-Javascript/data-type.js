@@ -133,3 +133,10 @@ let job = "web developer";
 let fullname = firstname + " " + lastname;
 
 console.log(`my name is ${fullname}, and my age is ${Age}, i come from ${country}, i work for ${job}`);
+
+// String Methods
+
+  // 1. length
+
+let pro = "javascript";
+console.log(pro.length);
