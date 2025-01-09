@@ -163,3 +163,10 @@ console.log(magac1.toLowerCase());
 let school = "university";
 console.log(school.substr(2, 9));
 
+  //6.substring()
+let Alphabet = "finland";
+console.log(Alphabet.substring(0));
+
+  //7. split()
+let string = "30 days of javascript";
+console.log(string.split(' '));
