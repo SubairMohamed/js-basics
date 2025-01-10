@@ -183,3 +183,8 @@ console.log(string.includes("days"));
       //second parameter = new
 let repVar = "1month of python";
 console.log(repVar.replace("python", "C++"));
+
+  //11.charAt() it takes index and it returns the value at that index
+let viewIndx = "university";
+// console.log(viewIndx[9]);
+console.log(viewIndx.charAt(7));
