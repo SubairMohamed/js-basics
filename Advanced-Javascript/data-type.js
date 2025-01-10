@@ -176,3 +176,4 @@ let string1 = "    30 days of javascript ";
 console.log(string1.trim());
 
   //9.includes() it checks if a substring exists in a string
+console.log(string.includes("days"));
