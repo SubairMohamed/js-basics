@@ -188,3 +188,7 @@ console.log(repVar.replace("python", "C++"));
 let viewIndx = "university";
 // console.log(viewIndx[9]);
 console.log(viewIndx.charAt(7));
+
+  //12.charCodeAt() ascii number
+let asci = "all boys";
+console.log(asci.charCodeAt(7));
