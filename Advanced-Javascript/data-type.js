@@ -170,3 +170,7 @@ console.log(Alphabet.substring(0));
   //7. split()
 let string = "30 days of javascript";
 console.log(string.split(' '));
+
+  //8.trim() removes space at beginning and ending of the string
+let string1 = "    30 days of javascript ";
+console.log(string1.trim());
