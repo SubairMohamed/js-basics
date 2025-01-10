@@ -181,3 +181,5 @@ console.log(string.includes("days"));
   //10.replace() it replaces a substring with another substring
       //first parameter = old
       //second parameter = new
+let repVar = "1month of python";
+console.log(repVar.replace("python", "C++"));
