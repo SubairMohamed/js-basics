@@ -177,3 +177,7 @@ console.log(string1.trim());
 
   //9.includes() it checks if a substring exists in a string
 console.log(string.includes("days"));
+
+  //10.replace() it replaces a substring with another substring
+      //first parameter = old
+      //second parameter = new
