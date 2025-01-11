@@ -192,3 +192,7 @@ console.log(viewIndx.charAt(7));
   //12.charCodeAt() ascii number
 let asci = "all boys";
 console.log(asci.charCodeAt(7));
+
+  //13.indexOf() it returns the first index of a string
+let frstIndx = "python";
+console.log(frstIndx.indexOf("o"));
