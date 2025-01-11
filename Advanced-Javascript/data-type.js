@@ -200,3 +200,7 @@ console.log(frstIndx.indexOf("o"));
   //14.lastIndexOf() it returns the last index of a string  
 let lstIndx = "javascript";
 console.log(lstIndx.lastIndexOf('t'));
+
+  //15.concat() it concatenates two or more strings 
+let con = "i learned";
+console.log(con.concat(' programming', ' language', ' that is ruby rails'));
