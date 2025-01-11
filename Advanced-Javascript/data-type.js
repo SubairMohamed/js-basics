@@ -196,3 +196,7 @@ console.log(asci.charCodeAt(7));
   //13.indexOf() it returns the first index of a string
 let frstIndx = "python";
 console.log(frstIndx.indexOf("o"));
+
+  //14.lastIndexOf() it returns the last index of a string  
+let lstIndx = "javascript";
+console.log(lstIndx.lastIndexOf('t'));
