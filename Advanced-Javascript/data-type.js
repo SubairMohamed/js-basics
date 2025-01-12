@@ -224,4 +224,4 @@ let Bolen = true;
 let nul = null;
 let undefn  
 
-console.log(typeof frstName);
+console.log(typeof undefn );
