@@ -212,3 +212,7 @@ console.log(start.startsWith("good"));
  //17.startsWith() 
  let start1 = "love is not good";
  console.log(start.endsWith("good"));
+
+ //18.repeat()
+let rep = "great";
+console.log(rep.repeat(5));
