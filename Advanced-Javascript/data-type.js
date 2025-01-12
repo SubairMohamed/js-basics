@@ -204,3 +204,7 @@ console.log(lstIndx.lastIndexOf('t'));
   //15.concat() it concatenates two or more strings 
 let con = "i learned";
 console.log(con.concat(' programming', ' language', ' that is ruby rails'));
+
+  //16.startsWith() 
+let start = "love is not good";
+console.log(start.endsWith("good"));
