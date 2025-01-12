@@ -207,4 +207,8 @@ console.log(con.concat(' programming', ' language', ' that is ruby rails'));
 
   //16.startsWith() 
 let start = "love is not good";
-console.log(start.endsWith("good"));
+console.log(start.startsWith("good"));
+
+ //16.startsWith() 
+ let start1 = "love is not good";
+ console.log(start.endsWith("good"));
