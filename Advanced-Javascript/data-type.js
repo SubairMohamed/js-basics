@@ -216,3 +216,12 @@ console.log(start.startsWith("good"));
  //18.repeat()
 let rep = "great";
 console.log(rep.repeat(5));
+
+ // cheking data type and casting
+let frstName = "nimco";
+let AgE = 30;
+let Bolen = true;
+let nul = null;
+let undefn  
+
+console.log(typeof frstName);
