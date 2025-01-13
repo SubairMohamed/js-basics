@@ -241,3 +241,8 @@ console.log(nmber);
 // let number = "20";
 // let nmber = +number;
 // console.log(nmber);
+
+// string to float
+  //parseFloat()
+  //Number()
+  //plus sign(+)
