@@ -224,3 +224,12 @@ let Bolen = true;
 let nul = null;
 let undefn  
 // console.log(typeof undefn );
+
+// string to int
+  //parseInt()
+  //Number()
+  //plus sign(+)
+
+let number = "20";
+let nmber = parseInt(number);
+console.log(nmber);
