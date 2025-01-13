@@ -252,5 +252,5 @@ let undefn
 // console.log(nmber);
 
 let number = "20.9";
-// let nmber = Number(number);
-// console.log(nmber);
+let nmber = Number(number);
+console.log(nmber);
