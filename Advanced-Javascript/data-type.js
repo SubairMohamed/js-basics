@@ -223,5 +223,4 @@ let AgE = 30;
 let Bolen = true;
 let nul = null;
 let undefn  
-
-console.log(typeof undefn );
+// console.log(typeof undefn );
