@@ -247,6 +247,10 @@ let undefn
   //Number()
   //plus sign(+)
 
+// let number = "20.9";
+// let nmber = parseFloat(number);
+// console.log(nmber);
+
 let number = "20.9";
-let nmber = parseFloat(number);
-console.log(nmber);
+// let nmber = Number(number);
+// console.log(nmber);
