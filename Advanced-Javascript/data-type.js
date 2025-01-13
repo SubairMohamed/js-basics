@@ -230,9 +230,9 @@ let undefn
   //Number()
   //plus sign(+)
 
-let number = "20";
-let nmber = parseInt(number);
-console.log(nmber);
+// let number = "20";
+// let nmber = parseInt(number);
+// console.log(nmber);
 
 // let number = "20";
 // let nmber = Number(number);
@@ -246,3 +246,7 @@ console.log(nmber);
   //parseFloat()
   //Number()
   //plus sign(+)
+
+let number = "20.9";
+let nmber = parseFloat(number);
+console.log(nmber);
