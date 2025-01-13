@@ -251,6 +251,14 @@ let undefn
 // let nmber = parseFloat(number);
 // console.log(nmber);
 
-let number = "20.9";
-let nmber = Number(number);
-console.log(nmber);
+// let number = "20.9";
+// let nmber = Number(number);
+// console.log(nmber);
+
+// let number = "20.9";
+// let nmber = Number(number);
+// console.log(nmber);
+
+// let number = "20.9";
+// let nmber = +(number);
+// console.log(nmber);
