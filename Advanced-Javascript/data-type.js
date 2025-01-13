@@ -233,3 +233,11 @@ let undefn
 let number = "20";
 let nmber = parseInt(number);
 console.log(nmber);
+
+// let number = "20";
+// let nmber = Number(number);
+// console.log(nmber);
+
+// let number = "20";
+// let nmber = +number;
+// console.log(nmber);
