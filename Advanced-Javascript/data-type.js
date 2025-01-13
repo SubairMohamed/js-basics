@@ -262,3 +262,8 @@ let undefn
 // let number = "20.9";
 // let nmber = +(number);
 // console.log(nmber);
+
+// float to int 
+let float = 30.9;
+let int = parseInt(float);
+console.log(int);
