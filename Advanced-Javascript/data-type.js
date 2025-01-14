@@ -267,3 +267,6 @@ let undefn
 let float = 30.9;
 let int = parseInt(float);
 console.log(int);
+
+  // Booleans
+// we will summary because it is easy to understand every one , so will enjoy it 
