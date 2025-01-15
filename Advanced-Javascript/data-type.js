@@ -294,3 +294,4 @@ isRaining
 // alert("welcome to 30 days in javascript");
 
   // prompt()
+// it takes two argument the second one is optional 
