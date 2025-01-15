@@ -292,3 +292,5 @@ isRaining
   // windows methods
   // alert()
 // alert("welcome to 30 days in javascript");
+
+  // prompt()
