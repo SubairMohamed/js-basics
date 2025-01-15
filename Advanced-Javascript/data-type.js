@@ -271,6 +271,8 @@ console.log(int);
   // Booleans
 // we will summary because it is easy to understand every one , so will enjoy it 
 
+ // Ternary Operators
+
 let number = 5
 number > 0
   ? console.log(`${number} is a positive number`)
