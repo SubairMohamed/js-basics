@@ -290,3 +290,5 @@ isRaining
   : console.log('No need for a rain coat.')
 
   // windows methods
+  // alert()
+// alert("welcome to 30 days in javascript");
