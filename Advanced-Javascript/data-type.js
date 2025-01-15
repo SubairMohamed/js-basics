@@ -270,3 +270,19 @@ console.log(int);
 
   // Booleans
 // we will summary because it is easy to understand every one , so will enjoy it 
+
+let number = 5
+number > 0
+  ? console.log(`${number} is a positive number`)
+  : console.log(`${number} is a negative number`)
+number = -5
+
+let isRaining = true
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
+isRaining = true
+
+isRaining
+  ? console.log('You need a rain coat.')
+  : console.log('No need for a rain coat.')
