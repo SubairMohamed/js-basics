@@ -303,3 +303,9 @@ isRaining
   // is used to ask a user to execute something
 // let confm = confirm("do you like javascript?");
 // console.log(confm);
+
+  //Date Objects
+
+// getting time 
+let time = new Date();
+console.log(time);
