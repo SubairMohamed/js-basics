@@ -296,8 +296,10 @@ isRaining
   // prompt()
 // it takes two argument the second one is optional 
 // prompt("requried button", "this is optional text");
-let Numbers = prompt("enter number", "number goes here");
+// let Numbers = prompt("enter number", "number goes here");
 // console.log(Number);
 
   //confirm() 
   // is used to ask a user to execute something
+let confm = confirm("do you like javascript?");
+console.log(confm);
