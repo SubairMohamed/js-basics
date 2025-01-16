@@ -323,3 +323,6 @@ let date = new Date();
 console.log(date.getDate());
 
 //Getting day
+let day = new Date();
+console.log(day.getDay()); // 0 - 6 sunday - saturday 
+
