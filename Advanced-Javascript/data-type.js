@@ -306,6 +306,10 @@ isRaining
 
   //Date Objects
 
-// getting time 
+//Getting time 
 let time = new Date();
-console.log(time);
+// console.log(time);
+
+//Getting full year
+let year = new Date();
+console.log(year.getFullYear());
