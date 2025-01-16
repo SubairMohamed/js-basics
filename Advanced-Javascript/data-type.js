@@ -329,3 +329,7 @@ console.log(day.getDay()); // 0 - 6 sunday - saturday
 //Getting hours
 let hour = new Date();
 console.log(hour.getHours());
+
+//Getting minutes
+let minute = new Date();
+console.log(minute.getMinutes());
