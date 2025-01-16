@@ -301,5 +301,5 @@ isRaining
 
   //confirm() 
   // is used to ask a user to execute something
-let confm = confirm("do you like javascript?");
-console.log(confm);
+// let confm = confirm("do you like javascript?");
+// console.log(confm);
