@@ -317,3 +317,7 @@ console.log(year.getFullYear());
 //Getting month
 let month = new Date();
 console.log(month.getMonth()); // 0 - 11 january - december
+
+// Getting date
+let date = new Date();
+console.log(date.getDate());
