@@ -326,3 +326,4 @@ console.log(date.getDate());
 let day = new Date();
 console.log(day.getDay()); // 0 - 6 sunday - saturday 
 
+//Getting hours
