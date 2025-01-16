@@ -337,3 +337,7 @@ console.log(minute.getMinutes());
 //Getting seconds
 let second = new Date();  
 console.log(second.getSeconds()); 
+
+//Getting time
+let time1 = new Date();
+console.log(time1.getTime());
