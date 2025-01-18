@@ -343,5 +343,18 @@ let time1 = new Date();
 console.log(time1.getTime()); //this is the number of seconds passed from January 1, 
 // 1970 to January 4,
 
-
+// let weather = 'cloudy'
+// switch (weather) {
+//   case 'rainy':
+//     console.log('You need a rain coat.')
+//     break
+//   case 'cloudy':
+//     console.log('It might be cold, you need a jacket.')
+//     break
+//   case 'sunny':
+//     console.log('Go out freely.')
+//     break
+//   default:
+//     console.log(' No need for rain coat.')
+// }
 
