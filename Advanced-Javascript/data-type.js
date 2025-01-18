@@ -340,4 +340,8 @@ console.log(second.getSeconds());
 
 //Getting time
 let time1 = new Date();
-console.log(time1.getTime()); //this is the number of seconds passed from January 1, 1970 to January 4,
+console.log(time1.getTime()); //this is the number of seconds passed from January 1, 
+// 1970 to January 4,
+
+
+
