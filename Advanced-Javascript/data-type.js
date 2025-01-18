@@ -376,3 +376,4 @@ switch (grades) {
   default:
     console.log("waad dhacday!");
 }
+
