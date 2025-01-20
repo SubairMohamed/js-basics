@@ -358,22 +358,22 @@ console.log(time1.getTime()); //this is the number of seconds passed from Januar
 //     console.log(' No need for rain coat.')
 // }
 
-let grades = 'A';
-switch (grades) {
-  case 'A':
-    console.log(100);
-    console.log(90);
-    break
-  case 'B':
-    console.log(90);
-    break
-  case 'C':
-    console.log(80);
-    break
-  case 'D':
-    console.log(70);
-    break
-  default:
-    console.log("waad dhacday!");
-}
+// let grades = 'A';
+// switch (grades) {
+//   case 'A':
+//     console.log(100);
+//     console.log(90);
+//     break
+//   case 'B':
+//     console.log(90);
+//     break
+//   case 'C':
+//     console.log(80);
+//     break
+//   case 'D':
+//     console.log(70);
+//     break
+//   default:
+//     console.log("waad dhacday!");
+// }
 
