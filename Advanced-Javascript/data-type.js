@@ -379,6 +379,9 @@ console.log(time1.getTime()); //this is the number of seconds passed from Januar
 
 let grades = prompt('Enter Your Grade');
 switch (true) {
+  case grades > 100:
+    console.log('their is no grade above 100');
+    break
   case grades == 100:
     console.log('A');
     break
@@ -391,7 +394,7 @@ switch (true) {
   case grades <= 79:
     console.log('C');
     break
-  case grades <= 69:
+  case grades >= 69:
     console.log('D');
     break
   default:
