@@ -389,4 +389,11 @@ switch (true) {
     console.log('B');
     break
   case grades <= 79:
+    console.log('C');
+    break
+  case grades <= 69:
+    console.log('D');
+    break
+  default:
+    console.log('F');
 }
