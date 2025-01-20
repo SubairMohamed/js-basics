@@ -377,3 +377,16 @@ console.log(time1.getTime()); //this is the number of seconds passed from Januar
 //     console.log("waad dhacday!");
 // }
 
+let grades = prompt('Enter Your Grade');
+switch (true) {
+  case grades == 100:
+    console.log('A');
+    break
+  case grades >= 90:
+    console.log('A');
+    break
+  case grades <= 89: 
+    console.log('B');
+    break
+  case grades <= 79:
+}
