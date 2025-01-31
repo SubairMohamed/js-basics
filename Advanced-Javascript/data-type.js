@@ -187,7 +187,7 @@ console.log(repVar.replace("python", "C++"));
   //11.charAt() it takes index and it returns the value at that index
 let viewIndx = "university";
 // console.log(viewIndx[9]);
-console.log(viewIndx.charAt(7));
+console.log(viewIndx.charAt(3));
 
   //12.charCodeAt() ascii number
 let asci = "all boys";
