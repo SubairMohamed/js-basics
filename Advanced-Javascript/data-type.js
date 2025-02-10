@@ -404,5 +404,9 @@ console.log(time1.getTime()); //this is the number of seconds passed from Januar
   // Arrays
   // =======
   // Using Array constructor
-const arr1 = Array();
-console.log(arr1);
+// const arr1 = Array();
+// console.log(arr1);
+
+// or
+let arr2 = new Array();
+console.log(arr2);
