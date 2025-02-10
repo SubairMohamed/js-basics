@@ -408,5 +408,5 @@ console.log(time1.getTime()); //this is the number of seconds passed from Januar
 // console.log(arr1);
 
 // or
-let arr2 = new Array();
-console.log(arr2);
+// let arr2 = new Array();
+// console.log(arr2);
