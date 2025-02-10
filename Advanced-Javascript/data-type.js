@@ -413,3 +413,5 @@ console.log(time1.getTime()); //this is the number of seconds passed from Januar
 
   // Using square brackets []
 // This syntax the most recommended way to create an empty list
+// let arr3 = [];
+// console.log(arr3);
