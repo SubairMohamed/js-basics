@@ -400,3 +400,9 @@ console.log(time1.getTime()); //this is the number of seconds passed from Januar
 //   default:
 //     console.log('F');
 // }
+
+  // Arrays
+  // =======
+  // Using Array constructor
+const arr1 = Array();
+console.log(arr1);
