@@ -417,4 +417,5 @@ console.log(time1.getTime()); //this is the number of seconds passed from Januar
 // console.log(arr3);
 
  // Array with initial values
- 
+let fruits = ["apple", "banana", "mango", "orange"];
+console.log(fruits.length);
