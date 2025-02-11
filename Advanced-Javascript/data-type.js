@@ -429,3 +429,4 @@ let diff = [
   {university: "is a apha university and unity university"},
   {skils: ["web deverloper"]}
 ];
+console.log(diff[4]);
