@@ -421,3 +421,11 @@ let fruits = ["apple", "banana", "mango", "orange"];
 console.log(fruits.length);
 
  // Array can have items of different data types
+let diff = [
+  true, 
+  5, 
+  "name", 
+  null,
+  {university: "is a apha university and unity university"},
+  {skils: ["web deverloper"]}
+];
