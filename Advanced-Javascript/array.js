@@ -24,6 +24,6 @@
    "name", 
    null,
    {university: "is a apha university and unity university"},
-   {skils: ["web deverloper"]}
+   {skils: ["web deverloper", "full-strack"]}
  ];
- console.log(diff[4]);
+ console.log(diff[5].skils[1]);
