@@ -27,3 +27,5 @@
    {skils: ["web deverloper", "full-strack"]}
  ];
  console.log(diff[5].skils[1]);
+
+ //Modifying array element
