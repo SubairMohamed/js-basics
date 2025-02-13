@@ -29,3 +29,7 @@
  console.log(diff[5].skils[1]);
 
  //Modifying array element
+let modi = [1, 2, 3, 4, 5];
+modi[0] = 10;
+modi[1] = 20;
+console.log(modi);
