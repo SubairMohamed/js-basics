@@ -33,3 +33,16 @@ let modi = [1, 2, 3, 4, 5];
 modi[0] = 10;
 modi[1] = 20;
 console.log(modi);
+
+// or
+
+let countries = [
+    "somaliland",
+    "kenya",
+    "ethiopia",
+    "uganda",
+];
+countries[0] = "somalia";
+let newCountry = countries.length -1
+countries[newCountry] = "south africa";
+console.log(countries);
