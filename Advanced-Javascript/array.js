@@ -46,3 +46,5 @@ countries[0] = "somalia";
 let newCountry = countries.length -1
 countries[newCountry] = "south africa";
 console.log(countries);
+
+// Checking array
