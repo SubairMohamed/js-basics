@@ -48,3 +48,5 @@ countries[newCountry] = "south africa";
 console.log(countries);
 
 // Checking array
+let chk = ["school", "university"];
+console.log(Array.isArray(chk));
